@@ -1,0 +1,12 @@
+metric,value
+Simulated days,100.0
+Mean daily cost ($),67776.3
+Std dev daily cost ($),5805.49
+Min daily cost ($),55701.3
+Max daily cost ($),81001.3
+95th pct daily cost ($),78701.3
+Expected annual cost (260 days) ($),17621836.72
+95% CI annual cost (+/-) ($),295847.76
+% days Mainfreight overflow triggered,100.0
+Mean Mainfreight trips per day,17.23
+Mean overflow events per day,16.5

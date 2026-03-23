@@ -1,0 +1,9 @@
+{
+  "fleetSize": 24,
+  "truckCost": 93000,
+  "mfCost": 2300,
+  "otRate": 325,
+  "penalty": 0,
+  "demandMean": 21,
+  "demandStd": 6
+}

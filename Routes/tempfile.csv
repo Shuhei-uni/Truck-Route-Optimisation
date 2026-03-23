@@ -1,0 +1,17 @@
+region,routes,total_duration,total_demand
+7,"['Distribution Centre Auckland', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",10685.0,8
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",14992.85,15
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",16220.17,16
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",15721.67,16
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",14992.85,15
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Distribution Centre Auckland']",9438.75,7
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",15625.27,15
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Greville Road', 'Distribution Centre Auckland']",14909.79,15
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",16220.17,16
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",15625.27,15
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",11090.03,8
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",15890.02,16
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",15721.67,16
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Greville Road', 'Distribution Centre Auckland']",14909.79,15
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",15890.02,16
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Distribution Centre Auckland']",10311.88,8

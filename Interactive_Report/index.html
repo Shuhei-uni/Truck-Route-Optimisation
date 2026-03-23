@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woolworths Routing Report</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="live_sim.css">
+    
+    <!-- JS Solvers and MathJax for Live Simulation -->
+    <script src="https://unpkg.com/javascript-lp-solver/prod/solver.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i data-lucide="truck"></i>
+                <h2>Route<br>Optimisation</h2>
+            </div>
+            <nav>
+                <button class="nav-item active" data-view="dashboard">
+                    <i data-lucide="layout-dashboard"></i> Dashboard
+                </button>
+                <button class="nav-item" data-view="map-view">
+                    <i data-lucide="map"></i> Route Map
+                </button>
+                <button class="nav-item" data-view="animation">
+                    <i data-lucide="play-circle"></i> Simulation
+                </button>
+                <button class="nav-item" data-view="live-sim">
+                    <i data-lucide="settings"></i> Live Simulation
+                </button>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <header>
+                <h1>Fleet Optimisation Results</h1>
+                <p>Based on the 75th percentile demand model with Mainfreight overflow recourse.</p>
+            </header>
+
+            <!-- VIEW: DASHBOARD -->
+            <section id="view-dashboard" class="view active">
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <i data-lucide="truck"></i>
+                        <div class="kpi-info">
+                            <h3>Optimal Fleet Size</h3>
+                            <div class="kpi-val" id="kpi-fleet-size">10 <span class="kpi-sub">trucks</span></div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <i data-lucide="circle-dollar-sign"></i>
+                        <div class="kpi-info">
+                            <h3>Total Annual Cost</h3>
+                            <div class="kpi-val" id="kpi-annual-cost">$7.35M <span class="kpi-sub">/ yr</span></div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <i data-lucide="map-pin"></i>
+                        <div class="kpi-info">
+                            <h3>Stores Serviced</h3>
+                            <div class="kpi-val" id="kpi-stores">64 <span class="kpi-sub">stores</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <div class="chart-header">
+                        <h2>Shift Schedule (Gantt)</h2>
+                        <p>11 trucks operational (10 base + 1 spare used for coverage in simulation).</p>
+                    </div>
+                    <div id="gantt-wrapper"></div>
+                </div>
+            </section>
+
+            <!-- VIEW: MAP VIEW -->
+            <section id="view-map-view" class="view">
+                <div class="map-controls">
+                    <button id="btn-show-demand" class="btn active"><i data-lucide="bar-chart-2"></i> Store Demand</button>
+                    <button id="btn-show-routes" class="btn"><i data-lucide="route"></i> Master Routes</button>
+                </div>
+                <div id="static-map" class="map-box"></div>
+            </section>
+
+            <!-- VIEW: ANIMATION -->
+            <section id="view-animation" class="view">
+                <div class="animation-header">
+                    <h2>Live Route Simulation</h2>
+                    <p>Watch the shift schedule execute across Auckland in real-time.</p>
+                </div>
+                
+                <div class="anim-controls">
+                    <button id="btn-anim-play" class="btn primary"><i data-lucide="play"></i> Play</button>
+                    <button id="btn-anim-pause" class="btn"><i data-lucide="pause"></i> Pause</button>
+                    <div class="time-slider-box">
+                        <span id="time-display">08:00</span>
+                        <input type="range" id="time-slider" min="28800" max="75600" value="28800" step="60">
+                        <span>21:00</span>
+                    </div>
+                </div>
+
+                <div id="anim-map" class="map-box"></div>
+            </section>
+
+            <!-- VIEW: LIVE SIMULATION -->
+            <section id="view-live-sim" class="view">
+                <div class="controls-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="fleetSize">
+                            <span>Fleet size (trucks):</span>
+                            <span id="fleetSizeVal" style="color:#388bfd; font-weight:bold;">24</span>
+                        </label>
+                        <input type="range" id="fleetSize" min="10" max="30" value="24" />
+                    </div>
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="truckCost">
+                            <span>Owned truck cost/yr ($):</span>
+                            <span id="truckCostVal" style="color:#388bfd; font-weight:bold;">75000</span>
+                        </label>
+                        <input type="range" id="truckCost" min="60000" max="120000" step="1000" value="75000" />
+                    </div>
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="mfCost">
+                            <span>Mainfreight block/4h ($):</span>
+                            <span id="mfCostVal" style="color:#388bfd; font-weight:bold;">2300</span>
+                        </label>
+                        <input type="range" id="mfCost" min="2000" max="5000" step="100" value="2300" />
+                    </div>
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="otRate">
+                            <span>Overtime rate/hr ($):</span>
+                            <span id="otRateVal" style="color:#388bfd; font-weight:bold;">325</span>
+                        </label>
+                        <input type="range" id="otRate" min="100" max="400" step="5" value="325" />
+                    </div>
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="penalty">
+                            <span>Overflow penalty/pal ($):</span>
+                            <span id="penaltyVal" style="color:#388bfd; font-weight:bold;">0</span>
+                        </label>
+                        <input type="range" id="penalty" min="0" max="5000" step="50" value="0" />
+                    </div>
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="demandMean">
+                            <span>Demand mean (pallets):</span>
+                            <span id="demandMeanVal" style="color:#388bfd; font-weight:bold;">15</span>
+                        </label>
+                        <input type="range" id="demandMean" min="5" max="30" value="15" />
+                    </div>
+                    <div class="control-group">
+                        <label style="display: flex; justify-content: space-between; margin-bottom: 8px; white-space: nowrap;" for="demandStd">
+                            <span>Demand σ (pallets):</span>
+                            <span id="demandStdVal" style="color:#388bfd; font-weight:bold;">4</span>
+                        </label>
+                        <input type="range" id="demandStd" min="1" max="10" value="4" />
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center; margin: 20px 0 30px 0;">
+                    <button class="btn primary" id="runSimBtn" style="padding: 12px 24px; font-weight: bold; font-size: 1.1em; background-color: #0066ff; border-radius: 8px; display: flex; align-items: center; gap: 8px;"><i data-lucide="refresh-cw"></i> Run Simulation</button>
+                </div>
+                
+                <h2 style="margin-bottom: 15px;">Linear Program Formulation</h2>
+                <div id="lpContainer" class="lp-block" style="min-height: 100px; padding: 15px; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 30px;">
+                    <!-- MathJax will render here -->
+                </div>
+                
+                <h2 style="margin-bottom: 15px;">Modified Demand Distribution</h2>
+                <div style="height: 250px;">
+                    <canvas id="liveDemandChart"></canvas>
+                </div>
+
+                <h2 style="margin-top: 30px; margin-bottom: 15px;">Simulation Summary</h2>
+                <div id="simSummaryContainer" style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin-bottom: 30px; overflow-x: auto;">
+                    <!-- Table rendered dynamically -->
+                    <table style="width: 100%; border-collapse: collapse; text-align: left; color: #e6edf3;" id="simSummaryTable">
+                        <thead>
+                            <tr style="border-bottom: 2px solid #30363d; color: #8b949e; text-transform: uppercase; font-size: 0.85em;">
+                                <th style="padding: 10px;">Metric</th>
+                                <th style="padding: 10px; text-align: right;">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Data Injection -->
+    <script src="data.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+    <script src="live_sim.js"></script>
+</body>
+</html>

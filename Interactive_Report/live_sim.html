@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Simulation – Woolworths Routing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="live_sim.css" />
+    <!-- Local MathJax copy -->
+    <script src="lib/mathjax/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i data-lucide="truck"></i>
+                <h2>Route<br>Optimisation</h2>
+            </div>
+            <nav>
+                <button class="nav-item" data-view="dashboard"><i data-lucide="home"></i>Dashboard</button>
+                <button class="nav-item" data-view="map"><i data-lucide="map"></i>Route Map</button>
+                <button class="nav-item" data-view="simulation"><i data-lucide="play"></i>Simulation</button>
+                <button class="nav-item active" data-view="live-sim"><i data-lucide="settings"></i>Live Simulation</button>
+            </nav>
+        </aside>
+        <main class="content">
+            <header>
+                <h1>Live Simulation</h1>
+                <p>Adjust parameters and instantly re‑run the LP & simulation.</p>
+            </header>
+            <section id="live-sim-view" class="view active">
+                <div class="controls-grid">
+                    <div class="control-group">
+                        <label for="fleetSize">Fleet size (trucks)</label>
+                        <input type="range" id="fleetSize" min="10" max="30" value="24" />
+                        <span id="fleetSizeVal">24</span>
+                    </div>
+                    <div class="control-group">
+                        <label for="truckCost">Owned‑truck cost ($/yr)</label>
+                        <input type="number" id="truckCost" min="60000" max="120000" step="1000" value="75000" />
+                    </div>
+                    <div class="control-group">
+                        <label for="mfCost">Mainfreight block cost ($/4h)</label>
+                        <input type="number" id="mfCost" min="2000" max="5000" step="100" value="2300" />
+                    </div>
+                    <div class="control-group">
+                        <label for="otRate">Overtime rate ($/hr)</label>
+                        <input type="range" id="otRate" min="100" max="400" step="5" value="325" />
+                        <span id="otRateVal">325</span>
+                    </div>
+                    <div class="control-group">
+                        <label for="penalty">Overflow penalty ($/pallet)</label>
+                        <input type="number" id="penalty" min="0" max="5000" step="50" value="0" />
+                    </div>
+                    <div class="control-group">
+                        <label for="demandMean">Demand mean (pallets)</label>
+                        <input type="range" id="demandMean" min="5" max="30" value="15" />
+                        <span id="demandMeanVal">15</span>
+                    </div>
+                    <div class="control-group">
+                        <label for="demandStd">Demand σ (pallets)</label>
+                        <input type="range" id="demandStd" min="1" max="10" value="4" />
+                        <span id="demandStdVal">4</span>
+                    </div>
+                </div>
+                <button class="btn primary" id="runSimBtn"><i data-lucide="refresh-cw"></i>Run Simulation</button>
+                <hr />
+                <h2>Linear Program Formulation</h2>
+                <div id="lpContainer" class="lp-block">
+                    <!-- MathJax will render here -->
+                </div>
+                <hr />
+                <h2 style="margin-bottom: 15px;">Modified Demand Distribution</h2>
+                <div style="height: 250px;">
+                    <canvas id="liveDemandChart"></canvas>
+                </div>
+                
+                <h2 style="margin-top: 30px; margin-bottom: 15px;">Simulation Summary</h2>
+                <div id="simSummaryContainer" style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin-bottom: 30px; overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; text-align: left; color: #e6edf3;" id="simSummaryTable">
+                        <thead>
+                            <tr style="border-bottom: 2px solid #30363d; color: #8b949e; text-transform: uppercase; font-size: 0.85em;">
+                                <th style="padding: 10px;">Metric</th>
+                                <th style="padding: 10px; text-align: right;">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <h2>Resulting Routes</h2>
+                <div id="liveMap" class="map-box"></div>
+                <hr />
+                <h2>Shift Gantt</h2>
+                <div id="liveGantt" class="chart-container"></div>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+    <script src="live_sim.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

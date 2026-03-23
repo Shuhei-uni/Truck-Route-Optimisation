@@ -1,0 +1,65 @@
+Store,Cluster,Trucks,Weekday Mean,std,Total Weekday Mean
+FreshChoice Epsom,0,4,4.0,1.26,89.2
+FreshChoice Glen Eden,0,4,4.55,1.93,89.2
+Woolworths Auckland City,0,4,7.4,2.52,89.2
+Woolworths Auckland Victoria Street West,0,4,7.75,2.0,89.2
+Woolworths Grey Lynn,0,4,8.8,2.26,89.2
+Woolworths Pt Chevalier,0,4,8.0,2.77,73.1
+Woolworths Newmarket,0,4,8.3,2.27,89.2
+Woolworths Greenlane,0,4,7.65,2.41,79.2
+Woolworths Ponsonby,0,4,8.4,1.76,89.2
+Woolworths Mt Eden,0,4,8.25,1.86,89.2
+Woolworths Mt Wellington,0,4,8.35,2.13,79.2
+Woolworths St Lukes,0,4,8.6,2.28,89.2
+Woolworths Roselands,1,2,7.85,2.08,36.2
+Woolworths Takanini,1,2,7.9,1.97,36.2
+Woolworths Waiata Shores,1,2,8.25,2.73,36.2
+FreshChoice Papakura,1,2,4.8,1.85,36.2
+Woolworths Papakura,1,2,7.4,2.54,36.2
+Woolworths Pakuranga,2,4,8.4,2.74,79.2
+Woolworths Botany Downs,2,4,7.95,2.04,79.2
+Woolworths Meadowbank,2,4,8.3,2.54,79.2
+Woolworths St Johns,2,4,8.25,1.97,79.2
+Woolworths Meadowlands,2,4,8.55,2.91,79.2
+FreshChoice Half Moon Bay,2,4,4.5,1.32,79.2
+Woolworths Howick,2,4,9.2,1.88,79.2
+Woolworths Highland Park,2,4,8.05,1.79,79.2
+Woolworths Mangere East,3,4,7.5,1.85,76.5
+Woolworths Airport,3,4,8.25,3.31,76.5
+FreshChoice Flat Bush,3,4,4.65,1.9,76.5
+FreshChoice Otahuhu,3,4,4.9,1.52,76.5
+FreshChoice Mangere Bridge,3,4,3.8,1.36,76.5
+Woolworths Manukau Mall,3,4,7.7,2.56,76.5
+Woolworths Mangere Mall,3,4,7.25,2.22,76.5
+Woolworths Onehunga,3,4,8.15,1.95,76.5
+Woolworths Manukau,3,4,8.4,2.09,76.5
+Woolworths Manurewa,3,4,8.3,2.2,76.5
+Woolworths Papatoetoe,3,4,7.6,2.28,76.5
+Woolworths Te Atatu North,4,4,8.8,1.61,73.1
+Woolworths Henderson,4,4,8.8,2.76,73.1
+FreshChoice Palomino,4,4,5.1,0.79,73.1
+Woolworths Hobsonville,4,4,7.35,1.69,73.1
+Woolworths Lincoln Road,4,4,8.3,2.2,73.1
+Woolworths Te Atatu South,4,4,7.75,2.59,73.1
+Woolworths Northwest,4,4,7.1,2.02,73.1
+Woolworths Westgate,4,4,7.7,2.03,73.1
+FreshChoice Ranui,4,4,4.2,1.15,73.1
+Woolworths Blockhouse Bay,5,1,8.05,2.16,16.4
+FreshChoice Titirangi,5,1,4.5,2.04,16.4
+Woolworths Three Kings,5,4,7.8,1.67,89.2
+Woolworths Lynnmall,5,4,8.45,1.9,89.2
+Woolworths Mt Roskill,5,4,6.9,2.1,89.2
+SuperValue Avondale,5,1,3.85,1.09,16.4
+Woolworths Glenfield,6,3,7.25,1.92,59.0
+Metro Herne Bay,6,3,4.3,1.63,59.0
+Woolworths Milford,6,3,7.6,1.98,59.0
+Woolworths Hauraki Corner,6,3,8.15,2.21,59.0
+Woolworths Northcote,6,3,7.25,2.36,59.0
+Woolworths Takapuna,6,3,7.7,2.85,59.0
+Woolworths Birkenhead,6,3,7.8,2.04,59.0
+Metro Halsey Street,6,3,4.6,1.43,59.0
+Metro Albert Street,6,3,4.35,1.23,59.0
+Woolworths Greville Road,7,2,8.35,2.43,31.35
+Woolworths Mairangi Bay,7,2,7.7,2.43,31.35
+Woolworths Browns Bay,7,2,8.15,1.95,31.35
+Woolworths Sunnynook,7,2,7.15,2.48,31.35

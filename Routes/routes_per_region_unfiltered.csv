@@ -1,0 +1,569 @@
+region,routes,total_duration,total_demand
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Distribution Centre Auckland']",4597.57,4.0
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",15466.51,19.4
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Ponsonby', 'Woolworths Auckland City', 'Distribution Centre Auckland']",16569.92,19.8
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Auckland Victoria Street West', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15564.1,19.4
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Auckland City', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15472.44,19.05
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Grey Lynn', 'FreshChoice Glen Eden', 'Distribution Centre Auckland']",16088.65,17.35
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Pt Chevalier', 'Woolworths Greenlane', 'Distribution Centre Auckland']",16151.88,19.65
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Newmarket', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15204.28,19.950000000000003
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths St Lukes', 'Woolworths Auckland City', 'Distribution Centre Auckland']",16630.24,20.0
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Mt Wellington', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15816.91,20.0
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'Woolworths Mt Eden', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15563.37,19.9
+0,"['Distribution Centre Auckland', 'FreshChoice Epsom', 'FreshChoice Glen Eden', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15702.78,16.200000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",15798.74,19.4
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Distribution Centre Auckland']",7058.05,7.65
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",13438.64,16.05
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Auckland Victoria Street West', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15680.92,19.4
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15589.26,19.05
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",13996.4,16.450000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Pt Chevalier', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16268.7,19.65
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Newmarket', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15264.05,19.950000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13301.04,16.25
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Mt Wellington', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15933.73,20.0
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'Woolworths Mt Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15695.09,19.9
+0,"['Distribution Centre Auckland', 'Woolworths Greenlane', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15663.95,16.2
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'FreshChoice Epsom', 'Woolworths Auckland City', 'Distribution Centre Auckland']",17333.75,19.8
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Greenlane', 'Distribution Centre Auckland']",13407.91,16.05
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",8610.86,8.4
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",13717.65,16.15
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16677.43,19.8
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14245.43,17.200000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",13651.23,16.4
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Newmarket', 'Distribution Centre Auckland']",13729.68,16.700000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13848.02,17.0
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",14235.06,16.75
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",13780.37,16.65
+0,"['Distribution Centre Auckland', 'Woolworths Ponsonby', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16344.04,16.95
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15787.13,19.4
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15576.34,19.4
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",13655.09,16.15
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",8165.22,7.75
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15690.49,19.15
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14188.45,16.55
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Pt Chevalier', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16641.88,19.75
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Newmarket', 'Distribution Centre Auckland']",13305.46,16.05
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13674.22,16.35
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",13810.84,16.1
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'Woolworths Mt Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16337.97,20.0
+0,"['Distribution Centre Auckland', 'Woolworths Auckland Victoria Street West', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16037.13,16.3
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15695.47,19.05
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15484.68,19.05
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Ponsonby', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16376.8,19.8
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Auckland Victoria Street West', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15630.83,19.15
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Distribution Centre Auckland']",8073.57,7.4
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14243.68,16.200000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Pt Chevalier', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16606.31,19.4
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Newmarket', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15896.65,19.700000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths St Lukes', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16513.78,20.0
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Mt Wellington', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16881.17,19.75
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'Woolworths Mt Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16523.43,19.65
+0,"['Distribution Centre Auckland', 'Woolworths Auckland City', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16001.56,15.95
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'FreshChoice Epsom', 'FreshChoice Glen Eden', 'Distribution Centre Auckland']",16984.35,17.35
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Greenlane', 'Distribution Centre Auckland']",13915.39,16.450000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",14195.15,17.200000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",14170.27,16.55
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Auckland City', 'Distribution Centre Auckland']",14397.99,16.200000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",9019.34,8.8
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",13942.74,16.8
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Newmarket', 'Distribution Centre Auckland']",14237.16,17.1
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths St Lukes', 'Distribution Centre Auckland']",14256.49,17.4
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",14742.54,17.15
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",14269.08,17.05
+0,"['Distribution Centre Auckland', 'Woolworths Grey Lynn', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16745.02,17.35
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15840.27,19.65
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15629.48,19.65
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",13560.64,16.4
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Auckland Victoria Street West', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16161.62,19.75
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16044.89,19.4
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",13908.66,16.8
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",7696.65,8.0
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Newmarket', 'Distribution Centre Auckland']",13358.61,16.3
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13163.92,16.6
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",13863.99,16.35
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",13321.47,16.25
+0,"['Distribution Centre Auckland', 'Woolworths Pt Chevalier', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15365.86,16.55
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15273.18,19.950000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15122.33,19.950000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",13692.43,16.700000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",13246.79,16.05
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15843.05,19.700000000000003
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14250.19,17.1
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",13312.86,16.3
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Distribution Centre Auckland']",7656.35,8.3
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13554.83,16.9
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",13441.76,16.65
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",13245.1,16.55
+0,"['Distribution Centre Auckland', 'Woolworths Newmarket', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15917.74,16.85
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'FreshChoice Epsom', 'Woolworths Auckland City', 'Distribution Centre Auckland']",16626.67,20.0
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Greenlane', 'Distribution Centre Auckland']",13053.32,16.25
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",13848.77,17.0
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",13683.11,16.35
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16435.07,20.0
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14306.09,17.4
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",13235.3,16.6
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Newmarket', 'Distribution Centre Auckland']",13571.21,16.9
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Distribution Centre Auckland']",7695.14,8.6
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",14254.17,16.95
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",13229.76,16.85
+0,"['Distribution Centre Auckland', 'Woolworths St Lukes', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15703.83,17.15
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15335.55,20.0
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15124.76,20.0
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",14084.93,16.75
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Auckland Victoria Street West', 'Distribution Centre Auckland']",13639.29,16.1
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16235.55,19.75
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14642.69,17.15
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",13705.36,16.35
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Newmarket', 'Distribution Centre Auckland']",13338.64,16.65
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13947.33,16.95
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",7239.58,8.35
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",13834.55,16.6
+0,"['Distribution Centre Auckland', 'Woolworths Mt Wellington', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16310.24,16.9
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",15522.57,19.9
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15455.39,19.9
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Ponsonby', 'Distribution Centre Auckland']",13742.66,16.65
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Auckland Victoria Street West', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16190.29,20.0
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16310.25,19.65
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Grey Lynn', 'Distribution Centre Auckland']",14262.37,17.05
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Pt Chevalier', 'Distribution Centre Auckland']",13357.66,16.25
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Newmarket', 'Distribution Centre Auckland']",13257.55,16.55
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths St Lukes', 'Distribution Centre Auckland']",13247.31,16.85
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Woolworths Mt Wellington', 'Distribution Centre Auckland']",13868.22,16.6
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'Distribution Centre Auckland']",7861.35,8.25
+0,"['Distribution Centre Auckland', 'Woolworths Mt Eden', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15997.69,16.8
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'FreshChoice Epsom', 'Woolworths Greenlane', 'Distribution Centre Auckland']",14668.24,16.200000000000003
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Greenlane', 'FreshChoice Epsom', 'Distribution Centre Auckland']",14846.53,16.2
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Ponsonby', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15503.49,16.95
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Auckland Victoria Street West', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15378.67,16.3
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Auckland City', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15261.94,15.95
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Grey Lynn', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16059.81,17.35
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Pt Chevalier', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15115.15,16.55
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Newmarket', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15258.5,16.85
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths St Lukes', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15111.81,17.15
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Mt Wellington', 'FreshChoice Epsom', 'Distribution Centre Auckland']",16243.02,16.9
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Woolworths Mt Eden', 'FreshChoice Epsom', 'Distribution Centre Auckland']",15246.36,16.8
+0,"['Distribution Centre Auckland', 'FreshChoice Glen Eden', 'Distribution Centre Auckland']",6348.2,4.55
+1,"['Distribution Centre Auckland', 'Woolworths Takanini', 'Distribution Centre Auckland']",8080.96,7.9
+1,"['Distribution Centre Auckland', 'Woolworths Takanini', 'FreshChoice Papakura', 'Distribution Centre Auckland']",11762.93,12.7
+1,"['Distribution Centre Auckland', 'Woolworths Takanini', 'Woolworths Roselands', 'Distribution Centre Auckland']",13332.3,15.75
+1,"['Distribution Centre Auckland', 'Woolworths Takanini', 'Woolworths Waiata Shores', 'Distribution Centre Auckland']",13159.25,16.15
+1,"['Distribution Centre Auckland', 'Woolworths Takanini', 'Woolworths Papakura', 'Distribution Centre Auckland']",13185.23,15.3
+1,"['Distribution Centre Auckland', 'FreshChoice Papakura', 'Woolworths Takanini', 'Distribution Centre Auckland']",11778.53,12.7
+1,"['Distribution Centre Auckland', 'FreshChoice Papakura', 'Distribution Centre Auckland']",6785.9,4.8
+1,"['Distribution Centre Auckland', 'FreshChoice Papakura', 'Woolworths Roselands', 'Distribution Centre Auckland']",11739.18,12.65
+1,"['Distribution Centre Auckland', 'FreshChoice Papakura', 'Woolworths Waiata Shores', 'Distribution Centre Auckland']",12008.39,13.05
+1,"['Distribution Centre Auckland', 'FreshChoice Papakura', 'Woolworths Papakura', 'Distribution Centre Auckland']",11410.46,12.2
+1,"['Distribution Centre Auckland', 'Woolworths Roselands', 'Woolworths Takanini', 'Distribution Centre Auckland']",13346.41,15.75
+1,"['Distribution Centre Auckland', 'Woolworths Roselands', 'FreshChoice Papakura', 'Distribution Centre Auckland']",11746.55,12.65
+1,"['Distribution Centre Auckland', 'Woolworths Roselands', 'Distribution Centre Auckland']",8567.97,7.85
+1,"['Distribution Centre Auckland', 'Woolworths Roselands', 'Woolworths Waiata Shores', 'Distribution Centre Auckland']",13613.17,16.1
+1,"['Distribution Centre Auckland', 'Woolworths Roselands', 'Woolworths Papakura', 'Distribution Centre Auckland']",13184.06,15.25
+1,"['Distribution Centre Auckland', 'Woolworths Waiata Shores', 'Woolworths Takanini', 'Distribution Centre Auckland']",13246.96,16.15
+1,"['Distribution Centre Auckland', 'Woolworths Waiata Shores', 'FreshChoice Papakura', 'Distribution Centre Auckland']",12096.15,13.05
+1,"['Distribution Centre Auckland', 'Woolworths Waiata Shores', 'Woolworths Roselands', 'Distribution Centre Auckland']",13687.51,16.1
+1,"['Distribution Centre Auckland', 'Woolworths Waiata Shores', 'Distribution Centre Auckland']",7850.25,8.25
+1,"['Distribution Centre Auckland', 'Woolworths Waiata Shores', 'Woolworths Papakura', 'Distribution Centre Auckland']",13589.04,15.65
+1,"['Distribution Centre Auckland', 'Woolworths Papakura', 'Woolworths Takanini', 'Distribution Centre Auckland']",13199.34,15.3
+1,"['Distribution Centre Auckland', 'Woolworths Papakura', 'FreshChoice Papakura', 'Distribution Centre Auckland']",11445.77,12.2
+1,"['Distribution Centre Auckland', 'Woolworths Papakura', 'Woolworths Roselands', 'Distribution Centre Auckland']",13184.05,15.25
+1,"['Distribution Centre Auckland', 'Woolworths Papakura', 'Woolworths Waiata Shores', 'Distribution Centre Auckland']",13501.3,15.65
+1,"['Distribution Centre Auckland', 'Woolworths Papakura', 'Distribution Centre Auckland']",8278.8,7.4
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",7646.43,8.4
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Woolworths Howick', 'Distribution Centre Auckland']",14953.21,17.6
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",14339.85,16.950000000000003
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Woolworths Highland Park', 'Distribution Centre Auckland']",13674.69,16.450000000000003
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",13417.64,16.35
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",13921.48,16.700000000000003
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'Woolworths St Johns', 'Distribution Centre Auckland']",13678.16,16.65
+2,"['Distribution Centre Auckland', 'Woolworths Pakuranga', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",11514.97,12.9
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",14918.48,17.6
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Distribution Centre Auckland']",9769.34,9.2
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",14999.69,17.75
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Woolworths Highland Park', 'Distribution Centre Auckland']",14707.88,17.25
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",14608.79,17.15
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",16011.3,17.5
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'Woolworths St Johns', 'Distribution Centre Auckland']",15767.99,17.45
+2,"['Distribution Centre Auckland', 'Woolworths Howick', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",12640.17,13.7
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",14614.79,16.950000000000003
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Woolworths Howick', 'Distribution Centre Auckland']",15398.73,17.75
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",9347.87,8.55
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Woolworths Highland Park', 'Distribution Centre Auckland']",14549.87,16.6
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",14179.96,16.5
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",15707.6,16.85
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'Woolworths St Johns', 'Distribution Centre Auckland']",15464.3,16.8
+2,"['Distribution Centre Auckland', 'Woolworths Meadowlands', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",12648.77,13.05
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",13639.97,16.450000000000003
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Woolworths Howick', 'Distribution Centre Auckland']",14748.5,17.25
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",14218.09,16.6
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Distribution Centre Auckland']",8490.82,8.05
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",13679.78,16.0
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",14732.79,16.35
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'Woolworths St Johns', 'Distribution Centre Auckland']",14489.48,16.3
+2,"['Distribution Centre Auckland', 'Woolworths Highland Park', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",11517.69,12.55
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",13722.08,16.35
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Woolworths Howick', 'Distribution Centre Auckland']",14985.06,17.15
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",14179.01,16.5
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Woolworths Highland Park', 'Distribution Centre Auckland']",13995.77,16.0
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",8425.66,7.95
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",14813.25,16.25
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'Woolworths St Johns', 'Distribution Centre Auckland']",14569.94,16.2
+2,"['Distribution Centre Auckland', 'Woolworths Botany Downs', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",12071.93,12.45
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",13930.1,16.700000000000003
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Woolworths Howick', 'Distribution Centre Auckland']",16025.02,17.5
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",15419.74,16.85
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Woolworths Highland Park', 'Distribution Centre Auckland']",14746.49,16.35
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",14661.28,16.25
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",8280.61,8.3
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'Woolworths St Johns', 'Distribution Centre Auckland']",13755.18,16.55
+2,"['Distribution Centre Auckland', 'Woolworths Meadowbank', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",12586.77,12.8
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",13655.22,16.65
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Woolworths Howick', 'Distribution Centre Auckland']",15750.14,17.45
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",15144.86,16.8
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Woolworths Highland Park', 'Distribution Centre Auckland']",14471.62,16.3
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",14277.29,16.2
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",13668.04,16.55
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'Distribution Centre Auckland']",8183.15,8.25
+2,"['Distribution Centre Auckland', 'Woolworths St Johns', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",12311.89,12.75
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths Pakuranga', 'Distribution Centre Auckland']",11480.25,12.9
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths Howick', 'Distribution Centre Auckland']",12653.25,13.7
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths Meadowlands', 'Distribution Centre Auckland']",12328.85,13.05
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths Highland Park', 'Distribution Centre Auckland']",11518.12,12.55
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths Botany Downs', 'Distribution Centre Auckland']",11768.52,12.45
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths Meadowbank', 'Distribution Centre Auckland']",12573.07,12.8
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Woolworths St Johns', 'Distribution Centre Auckland']",12329.76,12.75
+2,"['Distribution Centre Auckland', 'FreshChoice Half Moon Bay', 'Distribution Centre Auckland']",6331.1,4.5
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",6759.34,7.7
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Manukau', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14652.51,19.9
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Mangere Mall', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",16171.12,19.6
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Mangere East', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",16158.05,19.85
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'FreshChoice Flat Bush', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",14644.2,19.6
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Papatoetoe', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",15363.62,19.950000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'FreshChoice Otahuhu', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",14748.6,19.85
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Airport', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15079.93,19.75
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Onehunga', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14871.65,19.65
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'Woolworths Manurewa', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14908.32,19.8
+3,"['Distribution Centre Auckland', 'Woolworths Manukau Mall', 'FreshChoice Mangere Bridge', 'Woolworths Manukau', 'Distribution Centre Auckland']",16378.77,19.9
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Manukau Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14646.55,19.9
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Distribution Centre Auckland']",7407.1,8.4
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Mangere Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14637.1,19.45
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Mangere East', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14814.49,19.7
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'FreshChoice Flat Bush', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",13647.61,17.950000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Papatoetoe', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14888.68,19.8
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'FreshChoice Otahuhu', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14886.08,17.950000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Airport', 'Distribution Centre Auckland']",13146.96,16.65
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Onehunga', 'Distribution Centre Auckland']",13014.7,16.55
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'Woolworths Manurewa', 'Distribution Centre Auckland']",13025.08,16.700000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Manukau', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",16378.77,19.9
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Manukau Mall', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14815.68,19.6
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Manukau', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14612.6,19.45
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",5201.42,7.25
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Mangere East', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14881.82,19.4
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'FreshChoice Flat Bush', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14990.38,19.6
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Papatoetoe', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14833.93,19.5
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'FreshChoice Otahuhu', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15052.97,19.85
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Airport', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",13723.82,19.3
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Onehunga', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",13656.68,19.2
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'Woolworths Manurewa', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14467.59,19.35
+3,"['Distribution Centre Auckland', 'Woolworths Mangere Mall', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14369.06,18.75
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Manukau Mall', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14856.51,19.85
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Manukau', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14653.43,19.7
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Mangere Mall', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14945.32,19.4
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Distribution Centre Auckland']",5338.24,7.5
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'FreshChoice Flat Bush', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15031.21,19.85
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Papatoetoe', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14752.03,19.75
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'FreshChoice Otahuhu', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",13755.15,19.65
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Airport', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",13949.28,19.55
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Onehunga', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",13741.0,19.45
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'Woolworths Manurewa', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14508.42,19.6
+3,"['Distribution Centre Auckland', 'Woolworths Mangere East', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14600.35,19.0
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Manukau Mall', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",14818.9,19.6
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Manukau', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",13671.33,17.950000000000003
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Mangere Mall', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",16171.12,19.6
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Mangere East', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",16158.05,19.85
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",5461.22,4.65
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Papatoetoe', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15443.86,19.95
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'FreshChoice Otahuhu', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14528.39,17.25
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Airport', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",15019.6,17.8
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Onehunga', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",14999.54,17.700000000000003
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'Woolworths Manurewa', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",14652.25,17.85
+3,"['Distribution Centre Auckland', 'FreshChoice Flat Bush', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14432.88,16.15
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Manukau Mall', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",15264.77,19.950000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Manukau', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14885.41,19.8
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Mangere Mall', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",16121.02,19.5
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Mangere East', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",15945.18,19.75
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'FreshChoice Flat Bush', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15127.51,19.95
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Distribution Centre Auckland']",6499.76,7.6
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'FreshChoice Otahuhu', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",14587.69,19.75
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Airport', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15116.07,19.65
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Onehunga', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14907.78,19.55
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'Woolworths Manurewa', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15225.85,19.7
+3,"['Distribution Centre Auckland', 'Woolworths Papatoetoe', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15767.13,19.1
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Manukau Mall', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",14521.02,19.85
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Manukau', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",13788.05,17.950000000000003
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Mangere Mall', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15123.55,19.85
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Mangere East', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",13434.15,19.65
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'FreshChoice Flat Bush', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",13321.17,17.25
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Papatoetoe', 'Woolworths Mangere Mall', 'Distribution Centre Auckland']",14141.4,19.75
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",3892.4,4.9
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Airport', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",15036.91,17.8
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Onehunga', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14901.56,17.700000000000003
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'Woolworths Manurewa', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14711.59,17.85
+3,"['Distribution Centre Auckland', 'FreshChoice Otahuhu', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",13388.39,16.4
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Manukau Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15318.34,19.75
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Manukau', 'Distribution Centre Auckland']",13422.34,16.65
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Mangere Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",13970.76,19.3
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Mangere East', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14492.61,19.55
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'FreshChoice Flat Bush', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",14405.26,17.8
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Papatoetoe', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15292.01,19.65
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'FreshChoice Otahuhu', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",15078.06,17.8
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Distribution Centre Auckland']",6698.2,8.25
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Onehunga', 'Distribution Centre Auckland']",12342.77,16.4
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'Woolworths Manurewa', 'Distribution Centre Auckland']",13214.88,16.55
+3,"['Distribution Centre Auckland', 'Woolworths Airport', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15706.84,19.75
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Manukau Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15107.57,19.65
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Manukau', 'Distribution Centre Auckland']",13211.58,16.55
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Mangere Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",13845.79,19.2
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Mangere East', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14077.01,19.45
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'FreshChoice Flat Bush', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",14194.5,17.700000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Papatoetoe', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15143.71,19.55
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'FreshChoice Otahuhu', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",14693.61,17.700000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Airport', 'Distribution Centre Auckland']",12217.13,16.4
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Distribution Centre Auckland']",6201.54,8.15
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'Woolworths Manurewa', 'Distribution Centre Auckland']",13066.58,16.450000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Onehunga', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15134.16,19.65
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Manukau Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15041.03,19.8
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Manukau', 'Distribution Centre Auckland']",13149.14,16.700000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Mangere Mall', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14492.09,19.35
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Mangere East', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",14669.48,19.6
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'FreshChoice Flat Bush', 'FreshChoice Otahuhu', 'Distribution Centre Auckland']",13983.83,17.85
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Papatoetoe', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",15342.29,19.7
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'FreshChoice Otahuhu', 'FreshChoice Flat Bush', 'Distribution Centre Auckland']",15396.6,17.85
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Airport', 'Distribution Centre Auckland']",13001.95,16.55
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Woolworths Onehunga', 'Distribution Centre Auckland']",12869.69,16.450000000000003
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'Distribution Centre Auckland']",7262.1,8.3
+3,"['Distribution Centre Auckland', 'Woolworths Manurewa', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",16233.76,19.8
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Manukau Mall', 'Woolworths Manukau', 'Distribution Centre Auckland']",14883.72,19.9
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Manukau', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14877.78,19.9
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Mangere Mall', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14170.76,18.75
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Mangere East', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14336.97,19.0
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'FreshChoice Flat Bush', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",13103.64,16.15
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Papatoetoe', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14645.15,19.1
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'FreshChoice Otahuhu', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",13102.98,16.4
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Airport', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15285.44,19.75
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Onehunga', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",14999.18,19.65
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Woolworths Manurewa', 'Woolworths Manukau Mall', 'Distribution Centre Auckland']",15272.26,19.8
+3,"['Distribution Centre Auckland', 'FreshChoice Mangere Bridge', 'Distribution Centre Auckland']",3106.42,3.8
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",8782.8,7.75
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",14669.5,16.55
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Woolworths Northwest', 'FreshChoice Palomino', 'Distribution Centre Auckland']",18756.5,19.95
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Woolworths Westgate', 'FreshChoice Ranui', 'Distribution Centre Auckland']",17985.79,19.65
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Woolworths Lincoln Road', 'Distribution Centre Auckland']",14271.75,16.05
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Woolworths Hobsonville', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18497.17,19.3
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'Woolworths Henderson', 'Distribution Centre Auckland']",14674.46,16.55
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'FreshChoice Palomino', 'Woolworths Northwest', 'Distribution Centre Auckland']",18399.61,19.95
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu South', 'FreshChoice Ranui', 'Woolworths Northwest', 'Distribution Centre Auckland']",17778.19,19.049999999999997
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",14742.62,16.55
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",9702.35,8.8
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Woolworths Northwest', 'Distribution Centre Auckland']",15361.44,15.9
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Woolworths Westgate', 'Distribution Centre Auckland']",15405.33,16.5
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Woolworths Lincoln Road', 'Distribution Centre Auckland']",15384.45,17.1
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Woolworths Hobsonville', 'Distribution Centre Auckland']",15767.85,16.15
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'Woolworths Henderson', 'Distribution Centre Auckland']",15984.21,17.6
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'FreshChoice Palomino', 'FreshChoice Ranui', 'Distribution Centre Auckland']",17174.08,18.1
+4,"['Distribution Centre Auckland', 'Woolworths Te Atatu North', 'FreshChoice Ranui', 'FreshChoice Palomino', 'Distribution Centre Auckland']",17185.74,18.1
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Woolworths Te Atatu South', 'FreshChoice Palomino', 'Distribution Centre Auckland']",18781.43,19.95
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",15280.46,15.9
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Distribution Centre Auckland']",9362.03,7.1
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Woolworths Westgate', 'FreshChoice Palomino', 'Distribution Centre Auckland']",18284.47,19.9
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Woolworths Lincoln Road', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18116.8,19.6
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Woolworths Hobsonville', 'FreshChoice Palomino', 'Distribution Centre Auckland']",18523.87,19.549999999999997
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'Woolworths Henderson', 'Distribution Centre Auckland']",15702.57,15.9
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'FreshChoice Palomino', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",18515.08,19.95
+4,"['Distribution Centre Auckland', 'Woolworths Northwest', 'FreshChoice Ranui', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",17562.88,19.05
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Woolworths Te Atatu South', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18203.89,19.65
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",15324.35,16.5
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Woolworths Northwest', 'FreshChoice Palomino', 'Distribution Centre Auckland']",18527.67,19.9
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Distribution Centre Auckland']",9405.92,7.7
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Woolworths Lincoln Road', 'Distribution Centre Auckland']",14827.02,16.0
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Woolworths Hobsonville', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18389.0,19.25
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'Woolworths Henderson', 'Distribution Centre Auckland']",15746.46,16.5
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'FreshChoice Palomino', 'Woolworths Northwest', 'Distribution Centre Auckland']",19076.69,19.9
+4,"['Distribution Centre Auckland', 'Woolworths Westgate', 'FreshChoice Ranui', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",17798.17,19.65
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",14270.05,16.05
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",15303.48,17.1
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Woolworths Northwest', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18049.81,19.6
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Woolworths Westgate', 'Distribution Centre Auckland']",14725.3,16.0
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Distribution Centre Auckland']",9385.05,8.3
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Woolworths Hobsonville', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18796.49,19.85
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'Woolworths Henderson', 'Distribution Centre Auckland']",15238.55,17.1
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'FreshChoice Palomino', 'FreshChoice Ranui', 'Distribution Centre Auckland']",16220.77,17.6
+4,"['Distribution Centre Auckland', 'Woolworths Lincoln Road', 'FreshChoice Ranui', 'Woolworths Northwest', 'Distribution Centre Auckland']",18015.08,19.6
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Woolworths Te Atatu South', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18566.41,19.3
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",15686.86,16.15
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Woolworths Northwest', 'FreshChoice Palomino', 'Distribution Centre Auckland']",19016.97,19.549999999999997
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Woolworths Westgate', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18275.48,19.25
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Woolworths Lincoln Road', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18523.2,19.85
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Distribution Centre Auckland']",9768.44,7.35
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'Woolworths Henderson', 'Distribution Centre Auckland']",16108.97,16.15
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'FreshChoice Palomino', 'Woolworths Northwest', 'Distribution Centre Auckland']",19439.2,19.549999999999997
+4,"['Distribution Centre Auckland', 'Woolworths Hobsonville', 'FreshChoice Ranui', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",18309.55,19.3
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",14887.87,16.55
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Woolworths Te Atatu North', 'Distribution Centre Auckland']",16067.67,17.6
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Woolworths Northwest', 'Distribution Centre Auckland']",15717.37,15.9
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Woolworths Westgate', 'Distribution Centre Auckland']",15761.26,16.5
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Woolworths Lincoln Road', 'Distribution Centre Auckland']",15403.62,17.1
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Woolworths Hobsonville', 'Distribution Centre Auckland']",16123.79,16.15
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'Distribution Centre Auckland']",10024.39,8.8
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'FreshChoice Palomino', 'FreshChoice Ranui', 'Distribution Centre Auckland']",16659.37,18.1
+4,"['Distribution Centre Auckland', 'Woolworths Henderson', 'FreshChoice Ranui', 'FreshChoice Palomino', 'Distribution Centre Auckland']",16933.5,18.1
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Te Atatu South', 'Woolworths Northwest', 'Distribution Centre Auckland']",18716.28,19.95
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Te Atatu North', 'FreshChoice Ranui', 'Distribution Centre Auckland']",18226.46,18.1
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Northwest', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",18733.66,19.95
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Westgate', 'Woolworths Northwest', 'Distribution Centre Auckland']",18425.94,19.9
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Lincoln Road', 'FreshChoice Ranui', 'Distribution Centre Auckland']",16734.0,17.6
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Hobsonville', 'Woolworths Northwest', 'Distribution Centre Auckland']",18915.25,19.549999999999997
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Woolworths Henderson', 'FreshChoice Ranui', 'Distribution Centre Auckland']",17100.32,18.1
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'Distribution Centre Auckland']",8338.35,5.1
+4,"['Distribution Centre Auckland', 'FreshChoice Palomino', 'FreshChoice Ranui', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",16007.11,17.05
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Te Atatu South', 'Woolworths Northwest', 'Distribution Centre Auckland']",18104.35,19.049999999999997
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Te Atatu North', 'FreshChoice Palomino', 'Distribution Centre Auckland']",18226.46,18.1
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Northwest', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",18067.93,19.05
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Westgate', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",18020.57,19.65
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Lincoln Road', 'Woolworths Northwest', 'Distribution Centre Auckland']",18030.95,19.6
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Hobsonville', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",18474.34,19.3
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Woolworths Henderson', 'FreshChoice Palomino', 'Distribution Centre Auckland']",17111.98,18.1
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'FreshChoice Palomino', 'Woolworths Te Atatu South', 'Distribution Centre Auckland']",15964.97,17.05
+4,"['Distribution Centre Auckland', 'FreshChoice Ranui', 'Distribution Centre Auckland']",7672.62,4.2
+5,"['Distribution Centre Auckland', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",7935.11,8.45
+5,"['Distribution Centre Auckland', 'Woolworths Lynnmall', 'Woolworths Mt Roskill', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",17070.27,19.85
+5,"['Distribution Centre Auckland', 'Woolworths Lynnmall', 'Woolworths Three Kings', 'Distribution Centre Auckland']",13141.23,16.25
+5,"['Distribution Centre Auckland', 'Woolworths Lynnmall', 'FreshChoice Titirangi', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",16084.57,19.85
+5,"['Distribution Centre Auckland', 'Woolworths Lynnmall', 'Woolworths Blockhouse Bay', 'Distribution Centre Auckland']",13066.8,16.5
+5,"['Distribution Centre Auckland', 'Woolworths Lynnmall', 'SuperValue Avondale', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",14795.42,19.2
+5,"['Distribution Centre Auckland', 'Woolworths Mt Roskill', 'Woolworths Lynnmall', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",16081.51,19.85
+5,"['Distribution Centre Auckland', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",6180.57,6.9
+5,"['Distribution Centre Auckland', 'Woolworths Mt Roskill', 'Woolworths Three Kings', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",16178.36,19.2
+5,"['Distribution Centre Auckland', 'Woolworths Mt Roskill', 'FreshChoice Titirangi', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",16211.09,19.85
+5,"['Distribution Centre Auckland', 'Woolworths Mt Roskill', 'Woolworths Blockhouse Bay', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",15687.71,19.450000000000003
+5,"['Distribution Centre Auckland', 'Woolworths Mt Roskill', 'SuperValue Avondale', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",14893.37,19.2
+5,"['Distribution Centre Auckland', 'Woolworths Three Kings', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",13204.08,16.25
+5,"['Distribution Centre Auckland', 'Woolworths Three Kings', 'Woolworths Mt Roskill', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",15804.95,19.2
+5,"['Distribution Centre Auckland', 'Woolworths Three Kings', 'Distribution Centre Auckland']",6417.64,7.8
+5,"['Distribution Centre Auckland', 'Woolworths Three Kings', 'FreshChoice Titirangi', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",16020.51,19.200000000000003
+5,"['Distribution Centre Auckland', 'Woolworths Three Kings', 'Woolworths Blockhouse Bay', 'SuperValue Avondale', 'Distribution Centre Auckland']",15259.91,19.700000000000003
+5,"['Distribution Centre Auckland', 'Woolworths Three Kings', 'SuperValue Avondale', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",14525.24,18.55
+5,"['Distribution Centre Auckland', 'FreshChoice Titirangi', 'Woolworths Lynnmall', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",16077.52,19.85
+5,"['Distribution Centre Auckland', 'FreshChoice Titirangi', 'Woolworths Mt Roskill', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",17084.84,19.85
+5,"['Distribution Centre Auckland', 'FreshChoice Titirangi', 'Woolworths Three Kings', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",16134.22,19.200000000000003
+5,"['Distribution Centre Auckland', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",6169.72,4.5
+5,"['Distribution Centre Auckland', 'FreshChoice Titirangi', 'Woolworths Blockhouse Bay', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",15642.7,19.450000000000003
+5,"['Distribution Centre Auckland', 'FreshChoice Titirangi', 'SuperValue Avondale', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",14332.63,16.799999999999997
+5,"['Distribution Centre Auckland', 'Woolworths Blockhouse Bay', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",13048.86,16.5
+5,"['Distribution Centre Auckland', 'Woolworths Blockhouse Bay', 'Woolworths Mt Roskill', 'FreshChoice Titirangi', 'Distribution Centre Auckland']",16533.24,19.450000000000003
+5,"['Distribution Centre Auckland', 'Woolworths Blockhouse Bay', 'Woolworths Three Kings', 'SuperValue Avondale', 'Distribution Centre Auckland']",16129.99,19.700000000000003
+5,"['Distribution Centre Auckland', 'Woolworths Blockhouse Bay', 'FreshChoice Titirangi', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",15629.75,19.450000000000003
+5,"['Distribution Centre Auckland', 'Woolworths Blockhouse Bay', 'Distribution Centre Auckland']",7322.48,8.05
+5,"['Distribution Centre Auckland', 'Woolworths Blockhouse Bay', 'SuperValue Avondale', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",14497.17,18.8
+5,"['Distribution Centre Auckland', 'SuperValue Avondale', 'Woolworths Lynnmall', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",14820.83,19.2
+5,"['Distribution Centre Auckland', 'SuperValue Avondale', 'Woolworths Mt Roskill', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",15589.58,19.2
+5,"['Distribution Centre Auckland', 'SuperValue Avondale', 'Woolworths Three Kings', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",14714.55,18.55
+5,"['Distribution Centre Auckland', 'SuperValue Avondale', 'FreshChoice Titirangi', 'Woolworths Lynnmall', 'Distribution Centre Auckland']",14173.74,16.799999999999997
+5,"['Distribution Centre Auckland', 'SuperValue Avondale', 'Woolworths Blockhouse Bay', 'Woolworths Mt Roskill', 'Distribution Centre Auckland']",14603.59,18.8
+5,"['Distribution Centre Auckland', 'SuperValue Avondale', 'Distribution Centre Auckland']",4750.06,3.85
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Distribution Centre Auckland']",9284.12,7.7
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Metro Albert Street', 'Metro Halsey Street', 'Distribution Centre Auckland']",15541.84,16.65
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Metro Halsey Street', 'Metro Albert Street', 'Distribution Centre Auckland']",15227.22,16.65
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Woolworths Milford', 'Metro Albert Street', 'Distribution Centre Auckland']",17705.26,19.65
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Woolworths Glenfield', 'Metro Albert Street', 'Distribution Centre Auckland']",17889.1,19.299999999999997
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Woolworths Hauraki Corner', 'Distribution Centre Auckland']",14624.54,15.85
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Woolworths Northcote', 'Metro Albert Street', 'Distribution Centre Auckland']",17249.56,19.299999999999997
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Metro Herne Bay', 'Metro Albert Street', 'Distribution Centre Auckland']",15337.19,16.35
+6,"['Distribution Centre Auckland', 'Woolworths Takapuna', 'Woolworths Birkenhead', 'Metro Albert Street', 'Distribution Centre Auckland']",17849.85,19.85
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Woolworths Takapuna', 'Metro Halsey Street', 'Distribution Centre Auckland']",15661.77,16.65
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Distribution Centre Auckland']",6326.96,4.35
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Metro Halsey Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",15292.46,16.65
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Woolworths Milford', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17733.57,19.65
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Woolworths Glenfield', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17816.14,19.3
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Woolworths Hauraki Corner', 'Metro Halsey Street', 'Distribution Centre Auckland']",16186.92,17.1
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Woolworths Northcote', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17175.31,19.3
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Metro Herne Bay', 'Woolworths Takapuna', 'Distribution Centre Auckland']",15383.97,16.349999999999998
+6,"['Distribution Centre Auckland', 'Metro Albert Street', 'Woolworths Birkenhead', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17783.9,19.85
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Woolworths Takapuna', 'Metro Albert Street', 'Distribution Centre Auckland']",15622.24,16.65
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Metro Albert Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",15516.13,16.65
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Distribution Centre Auckland']",6731.4,4.6
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Woolworths Milford', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17849.1,19.9
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Woolworths Glenfield', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17931.67,19.55
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Woolworths Hauraki Corner', 'Metro Albert Street', 'Distribution Centre Auckland']",16147.4,17.1
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Woolworths Northcote', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17290.84,19.55
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Metro Herne Bay', 'Woolworths Takapuna', 'Distribution Centre Auckland']",15499.51,16.599999999999998
+6,"['Distribution Centre Auckland', 'Metro Halsey Street', 'Woolworths Birkenhead', 'Metro Albert Street', 'Distribution Centre Auckland']",15734.77,16.75
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Woolworths Takapuna', 'Metro Albert Street', 'Distribution Centre Auckland']",17694.05,19.65
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Metro Albert Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",19106.53,19.65
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Metro Halsey Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18972.68,19.9
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Distribution Centre Auckland']",9926.78,7.6
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Woolworths Glenfield', 'Metro Albert Street', 'Distribution Centre Auckland']",18032.44,19.2
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Woolworths Hauraki Corner', 'Distribution Centre Auckland']",15057.91,15.75
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Woolworths Northcote', 'Metro Albert Street', 'Distribution Centre Auckland']",17784.49,19.2
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Metro Herne Bay', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18713.08,19.6
+6,"['Distribution Centre Auckland', 'Woolworths Milford', 'Woolworths Birkenhead', 'Metro Albert Street', 'Distribution Centre Auckland']",18399.59,19.75
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Woolworths Takapuna', 'Metro Albert Street', 'Distribution Centre Auckland']",17776.61,19.299999999999997
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Metro Albert Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18825.02,19.3
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Metro Halsey Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18691.17,19.55
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Woolworths Milford', 'Metro Albert Street', 'Distribution Centre Auckland']",17978.73,19.2
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Distribution Centre Auckland']",9645.27,7.25
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Woolworths Hauraki Corner', 'Metro Albert Street', 'Distribution Centre Auckland']",18301.77,19.75
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Woolworths Northcote', 'Metro Albert Street', 'Distribution Centre Auckland']",17294.66,18.85
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Metro Herne Bay', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18431.58,19.25
+6,"['Distribution Centre Auckland', 'Woolworths Glenfield', 'Woolworths Birkenhead', 'Metro Albert Street', 'Distribution Centre Auckland']",17728.28,19.4
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Woolworths Takapuna', 'Distribution Centre Auckland']",14626.9,15.85
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Metro Albert Street', 'Metro Halsey Street', 'Distribution Centre Auckland']",16067.0,17.1
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Metro Halsey Street', 'Metro Albert Street', 'Distribution Centre Auckland']",15752.38,17.1
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Woolworths Milford', 'Distribution Centre Auckland']",15077.56,15.75
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Woolworths Glenfield', 'Metro Albert Street', 'Distribution Centre Auckland']",18414.26,19.75
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Distribution Centre Auckland']",9809.28,8.15
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Woolworths Northcote', 'Metro Albert Street', 'Distribution Centre Auckland']",17774.72,19.75
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Metro Herne Bay', 'Metro Albert Street', 'Distribution Centre Auckland']",15862.35,16.799999999999997
+6,"['Distribution Centre Auckland', 'Woolworths Hauraki Corner', 'Woolworths Birkenhead', 'Distribution Centre Auckland']",15283.48,15.95
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Woolworths Takapuna', 'Metro Albert Street', 'Distribution Centre Auckland']",17135.78,19.299999999999997
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Metro Albert Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18157.0,19.3
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Metro Halsey Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18023.15,19.55
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Woolworths Milford', 'Metro Albert Street', 'Distribution Centre Auckland']",17704.83,19.2
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Woolworths Glenfield', 'Metro Albert Street', 'Distribution Centre Auckland']",17233.46,18.85
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Woolworths Hauraki Corner', 'Metro Albert Street', 'Distribution Centre Auckland']",17660.93,19.75
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Distribution Centre Auckland']",8977.25,7.25
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Metro Herne Bay', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17763.55,19.25
+6,"['Distribution Centre Auckland', 'Woolworths Northcote', 'Woolworths Birkenhead', 'Metro Albert Street', 'Distribution Centre Auckland']",17211.71,19.4
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Woolworths Takapuna', 'Metro Albert Street', 'Distribution Centre Auckland']",15629.38,16.35
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Metro Albert Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",15892.84,16.349999999999998
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Metro Halsey Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",15784.14,16.599999999999998
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Woolworths Milford', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17856.24,19.6
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Woolworths Glenfield', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17938.81,19.25
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Woolworths Hauraki Corner', 'Metro Albert Street', 'Distribution Centre Auckland']",16154.53,16.799999999999997
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Woolworths Northcote', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17297.98,19.25
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Distribution Centre Auckland']",6831.97,4.3
+6,"['Distribution Centre Auckland', 'Metro Herne Bay', 'Woolworths Birkenhead', 'Woolworths Takapuna', 'Distribution Centre Auckland']",17906.57,19.8
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Woolworths Takapuna', 'Metro Albert Street', 'Distribution Centre Auckland']",17744.38,19.85
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Metro Albert Street', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18576.4,19.85
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Metro Halsey Street', 'Metro Albert Street', 'Distribution Centre Auckland']",15339.75,16.75
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Woolworths Milford', 'Metro Albert Street', 'Distribution Centre Auckland']",18270.19,19.75
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Woolworths Glenfield', 'Metro Albert Street', 'Distribution Centre Auckland']",17640.25,19.4
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Woolworths Hauraki Corner', 'Distribution Centre Auckland']",15178.0,15.95
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Woolworths Northcote', 'Metro Albert Street', 'Distribution Centre Auckland']",17173.49,19.4
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Metro Herne Bay', 'Woolworths Takapuna', 'Distribution Centre Auckland']",18182.95,19.8
+6,"['Distribution Centre Auckland', 'Woolworths Birkenhead', 'Distribution Centre Auckland']",9396.65,7.8
+7,"['Distribution Centre Auckland', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",10505.0,7.7
+7,"['Distribution Centre Auckland', 'Woolworths Mairangi Bay', 'Woolworths Sunnynook', 'Distribution Centre Auckland']",14923.6,14.85
+7,"['Distribution Centre Auckland', 'Woolworths Mairangi Bay', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",16142.01,15.85
+7,"['Distribution Centre Auckland', 'Woolworths Mairangi Bay', 'Woolworths Greville Road', 'Distribution Centre Auckland']",15828.99,16.05
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",14902.85,14.85
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Distribution Centre Auckland']",9528.75,7.15
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",15805.27,15.3
+7,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Greville Road', 'Distribution Centre Auckland']",15209.79,15.5
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",16130.17,15.85
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Woolworths Sunnynook', 'Distribution Centre Auckland']",15874.41,15.3
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",11180.03,8.15
+7,"['Distribution Centre Auckland', 'Woolworths Browns Bay', 'Woolworths Greville Road', 'Distribution Centre Auckland']",16272.88,16.5
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",15751.67,16.05
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Sunnynook', 'Distribution Centre Auckland']",15216.26,15.5
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",16190.02,16.5
+7,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Distribution Centre Auckland']",10521.88,8.35

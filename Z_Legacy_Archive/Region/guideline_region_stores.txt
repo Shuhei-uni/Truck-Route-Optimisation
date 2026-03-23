@@ -1,0 +1,80 @@
+Cluster 0: Central Auckland
+FreshChoice Epsom
+FreshChoice Glen Eden
+Woolworths Auckland City
+Woolworths Auckland Victoria Street West
+Woolworths Grey Lynn
+Woolworths Newmarket
+Woolworths Ponsonby
+Woolworths Mt Eden
+Woolworths St Lukes
+Woolworths Mt Wellington
+Woolworths Greenlane
+Woolworths Pt Chevalier
+
+Cluster 1: South South Auckland
+Woolworths Takanini
+Woolworths Roselands
+FreshChoice Papakura
+Woolworths Waiata Shores
+Woolworths Papakura
+
+Cluster 2: East Auckland
+Woolworths Pakuranga
+Woolworths Botany Downs
+Woolworths Meadowbank
+Woolworths St Johns
+Woolworths Meadowlands
+FreshChoice Half Moon Bay
+Woolworths Highland Park
+Woolworths Howick
+
+Cluster 3: South Auckland
+Woolworths Mangere East
+Woolworths Airport
+FreshChoice Flat Bush
+FreshChoice Otahuhu
+FreshChoice Mangere Bridge
+Woolworths Mangere Mall
+Woolworths Papatoetoe
+Woolworths Manukau Mall
+Woolworths Onehunga
+Woolworths Manurewa
+Woolworths Manukau
+
+Cluster 4: West Auckland
+Woolworths Northwest
+Woolworths Te Atatu South
+Woolworths Westgate
+Woolworths Te Atatu North
+FreshChoice Ranui
+Woolworths Hobsonville
+FreshChoice Palomino
+Woolworths Henderson
+Woolworths Lincoln Road
+
+Cluster 5: West Central Auckland : 2
+SuperValue Avondale
+Woolworths Blockhouse Bay
+FreshChoice Titirangi
+Woolworths Lynnmall
+Woolworths Three Kings
+Woolworths Mt Roskill
+
+Cluster 6: North Auckland
+Woolworths Glenfield
+Woolworths Birkenhead
+Metro Albert Street
+Metro Halsey Street
+Metro Herne Bay
+Woolworths Takapuna
+Woolworths Northcote
+Woolworths Hauraki Corner
+Woolworths Milford
+
+Cluster 7: North North Auckland
+Woolworths Browns Bay
+Woolworths Greville Road
+Woolworths Mairangi Bay
+Woolworths Sunnynook
+

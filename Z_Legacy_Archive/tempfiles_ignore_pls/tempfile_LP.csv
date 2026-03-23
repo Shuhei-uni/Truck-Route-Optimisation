@@ -1,0 +1,3 @@
+region,Number of Trucks,Number of Routes,WoolWorths routes,WoolWorths duration,Cost of WW trucks,Outsourced routes,Outsourced duration,Cost of OS trucks,total_demand_from_routes,total_cost
+7,2,2,"['Distribution Centre Auckland', 'Woolworths Sunnynook', 'Woolworths Mairangi Bay', 'Distribution Centre Auckland']",14992.85,2598.995779109589,,,0.0,31,2598.995779109589
+7,2,2,"['Distribution Centre Auckland', 'Woolworths Greville Road', 'Woolworths Browns Bay', 'Distribution Centre Auckland']",15890.02,2598.995779109589,,,0.0,31,2598.995779109589

@@ -1,0 +1,65 @@
+Type,Location,Store,Lat,Long,Weekday Mean,Saturday Mean,Short Store Name,Rounded Weekday Mean
+FreshChoice,Epsom,FreshChoice Epsom,-36.89276172,174.7797646,4.0,0.0,FC Epsom,4
+FreshChoice,Flat Bush,FreshChoice Flat Bush,-36.97676671,174.8972267,4.65,0.0,FC Flat Bush,5
+FreshChoice,Glen Eden,FreshChoice Glen Eden,-36.91087436,174.6545496,4.55,0.0,FC Glen Eden,5
+FreshChoice,Half Moon Bay,FreshChoice Half Moon Bay,-36.88106607,174.9002827,4.5,0.0,FC Half Moon Bay,4
+FreshChoice,Mangere Bridge,FreshChoice Mangere Bridge,-36.94250829,174.7869875,3.8,0.0,FC Mangere Bridge,4
+FreshChoice,Otahuhu,FreshChoice Otahuhu,-36.94480584,174.8431184,4.9,0.0,FC Otahuhu,5
+FreshChoice,Palomino,FreshChoice Palomino,-36.88287566,174.6161793,5.1,0.0,FC Palomino,5
+FreshChoice,Papakura,FreshChoice Papakura,-37.06606311,174.9556975,4.8,0.0,FC Papakura,5
+FreshChoice,Ranui,FreshChoice Ranui,-36.86353948,174.6015834,4.2,0.0,FC Ranui,4
+FreshChoice,Titirangi,FreshChoice Titirangi,-36.93739048,174.6572984,4.5,0.0,FC Titirangi,4
+Metro,Albert Street,Metro Albert Street,-36.84350157,174.7658662,4.35,0.0,M Albert Street,4
+Metro,Halsey Street,Metro Halsey Street,-36.84358106,174.7578066,4.6,0.0,M Halsey Street,5
+Metro,Herne Bay,Metro Herne Bay,-36.84651051,174.7334683,4.3,0.0,M Herne Bay,4
+SuperValue,Avondale,SuperValue Avondale,-36.89776863,174.69741,3.85,0.0,SuperValue Avondale,4
+Woolworths,Airport,Woolworths Airport,-36.99736985,174.7888823,8.25,6.0,WW Airport,8
+Woolworths,Auckland City,Woolworths Auckland City,-36.84496186,174.7731192,7.4,6.0,WW Auckland City,7
+Woolworths,Auckland Victoria Street West,Woolworths Auckland Victoria Street West,-36.84853355,174.7648512,7.75,5.0,WW Auckland Victoria Street West,8
+Woolworths,Birkenhead,Woolworths Birkenhead,-36.81111802,174.7248776,7.8,6.0,WW Birkenhead,8
+Woolworths,Blockhouse Bay,Woolworths Blockhouse Bay,-36.92291876,174.7023521,8.05,4.5,WW Blockhouse Bay,8
+Woolworths,Botany Downs,Woolworths Botany Downs,-36.92972626,174.9110718,7.95,4.25,WW Botany Downs,8
+Woolworths,Browns Bay,Woolworths Browns Bay,-36.71714479,174.7472772,8.15,7.25,WW Browns Bay,8
+Woolworths,Glenfield,Woolworths Glenfield,-36.78148813,174.7234262,7.25,5.5,WW Glenfield,7
+Woolworths,Greenlane,Woolworths Greenlane,-36.88916156,174.7935037,7.65,5.5,WW Greenlane,8
+Woolworths,Greville Road,Woolworths Greville Road,-36.73170033,174.7209467,8.35,5.5,WW Greville Road,8
+Woolworths,Grey Lynn,Woolworths Grey Lynn,-36.85416528,174.7317139,8.8,4.75,WW Grey Lynn,9
+Woolworths,Hauraki Corner,Woolworths Hauraki Corner,-36.79667981,174.7781249,8.15,4.25,WW Hauraki Corner,8
+Woolworths,Henderson,Woolworths Henderson,-36.88089456,174.6332277,8.8,4.75,WW Henderson,9
+Woolworths,Highland Park,Woolworths Highland Park,-36.89933061,174.9084309,8.05,3.75,WW Highland Park,8
+Woolworths,Hobsonville,Woolworths Hobsonville,-36.79748845,174.6487257,7.35,5.25,WW Hobsonville,7
+Woolworths,Howick,Woolworths Howick,-36.89585201,174.9335377,9.2,5.75,WW Howick,9
+Woolworths,Lincoln Road,Woolworths Lincoln Road,-36.8568778,174.6325126,8.3,5.0,WW Lincoln Road,8
+Woolworths,Lynnmall,Woolworths Lynnmall,-36.90687152,174.6850146,8.45,4.5,WW Lynnmall,8
+Woolworths,Mairangi Bay,Woolworths Mairangi Bay,-36.73941255,174.7540551,7.7,5.0,WW Mairangi Bay,8
+Woolworths,Mangere East,Woolworths Mangere East,-36.9657908,174.825346,7.5,4.0,WW Mangere East,8
+Woolworths,Mangere Mall,Woolworths Mangere Mall,-36.96987802,174.8011202,7.25,5.5,WW Mangere Mall,7
+Woolworths,Manukau,Woolworths Manukau,-36.98676855,174.8848148,8.4,3.75,WW Manukau,8
+Woolworths,Manukau Mall,Woolworths Manukau Mall,-36.99174967,174.8831931,7.7,5.25,WW Manukau Mall,8
+Woolworths,Manurewa,Woolworths Manurewa,-37.01734442,174.8651097,8.3,5.5,WW Manurewa,8
+Woolworths,Meadowbank,Woolworths Meadowbank,-36.87610706,174.8289359,8.3,4.75,WW Meadowbank,8
+Woolworths,Meadowlands,Woolworths Meadowlands,-36.9132518,174.929465,8.55,6.5,WW Meadowlands,9
+Woolworths,Milford,Woolworths Milford,-36.77197217,174.7666177,7.6,4.25,WW Milford,8
+Woolworths,Mt Eden,Woolworths Mt Eden,-36.87718131,174.7523352,8.25,5.25,WW Mt Eden,8
+Woolworths,Mt Roskill,Woolworths Mt Roskill,-36.90203359,174.7356996,6.9,4.5,WW Mt Roskill,7
+Woolworths,Mt Wellington,Woolworths Mt Wellington,-36.9093147,174.837989,8.35,4.25,WW Mt Wellington,8
+Woolworths,Newmarket,Woolworths Newmarket,-36.8705446,174.7754093,8.3,5.25,WW Newmarket,8
+Woolworths,Northcote,Woolworths Northcote,-36.80035237,174.7455338,7.25,3.75,WW Northcote,7
+Woolworths,Northwest,Woolworths Northwest,-36.81879206,174.6129291,7.1,4.0,WW Northwest,7
+Woolworths,Onehunga,Woolworths Onehunga,-36.92249969,174.7838024,8.15,5.0,WW Onehunga,8
+Woolworths,Pakuranga,Woolworths Pakuranga,-36.91284146,174.8714299,8.4,5.75,WW Pakuranga,8
+Woolworths,Papakura,Woolworths Papakura,-37.06390487,174.9447236,7.4,4.0,WW Papakura,7
+Woolworths,Papatoetoe,Woolworths Papatoetoe,-36.97039494,174.862111,7.6,5.0,WW Papatoetoe,8
+Woolworths,Ponsonby,Woolworths Ponsonby,-36.8584399,174.7491386,8.4,5.5,WW Ponsonby,8
+Woolworths,Pt Chevalier,Woolworths Pt Chevalier,-36.86957431,174.7105595,8.0,5.5,WW Pt Chevalier,8
+Woolworths,Roselands,Woolworths Roselands,-37.0589478,174.9414297,7.85,3.75,WW Roselands,8
+Woolworths,St Johns,Woolworths St Johns,-36.87888192,174.8548393,8.25,5.25,WW St Johns,8
+Woolworths,St Lukes,Woolworths St Lukes,-36.88336862,174.7347459,8.6,5.0,WW St Lukes,9
+Woolworths,Sunnynook,Woolworths Sunnynook,-36.75907026,174.7406941,7.15,5.25,WW Sunnynook,7
+Woolworths,Takanini,Woolworths Takanini,-37.04764284,174.9279243,7.9,4.25,WW Takanini,8
+Woolworths,Takapuna,Woolworths Takapuna,-36.79125414,174.7662056,7.7,4.75,WW Takapuna,8
+Woolworths,Te Atatu North,Woolworths Te Atatu North,-36.84209292,174.6542381,8.8,4.75,WW Te Atatu North,9
+Woolworths,Te Atatu South,Woolworths Te Atatu South,-36.86472278,174.6476292,7.75,4.5,WW Te Atatu South,8
+Woolworths,Three Kings,Woolworths Three Kings,-36.90796057,174.7559072,7.8,4.75,WW Three Kings,8
+Woolworths,Waiata Shores,Woolworths Waiata Shores,-37.03553485,174.9078539,8.25,4.0,WW Waiata Shores,8
+Woolworths,Westgate,Woolworths Westgate,-36.82092949,174.6146464,7.7,3.5,WW Westgate,8

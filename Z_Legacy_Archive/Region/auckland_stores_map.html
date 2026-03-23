@@ -1,0 +1,3588 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_af0fb5e7dd7ef34dca8a5b88a4cf870c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_af0fb5e7dd7ef34dca8a5b88a4cf870c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_af0fb5e7dd7ef34dca8a5b88a4cf870c = L.map(
+                "map_af0fb5e7dd7ef34dca8a5b88a4cf870c",
+                {
+                    center: [-36.8779, 174.79500000000002],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_430135e5a50009d4297be25dd548f23c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_430135e5a50009d4297be25dd548f23c.addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var rectangle_32887a95743fa9e27b421e983948dbf6 = L.rectangle(
+                [[-36.915, 174.73], [-36.8408, 174.86]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var marker_238bed6cf3775c6f583dff973d24af4b = L.marker(
+                [-36.89276172, 174.7797646],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8b5c9ea087b42ec7a3bae9f1bbeebb0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_238bed6cf3775c6f583dff973d24af4b.setIcon(icon_8b5c9ea087b42ec7a3bae9f1bbeebb0a);
+        
+    
+        var popup_8d536200effe0f90c3b2c159064356cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c8c3371620aa2e18353fd0b757a1722 = $(`<div id="html_3c8c3371620aa2e18353fd0b757a1722" style="width: 100.0%; height: 100.0%;">FreshChoice Epsom</div>`)[0];
+                popup_8d536200effe0f90c3b2c159064356cf.setContent(html_3c8c3371620aa2e18353fd0b757a1722);
+            
+        
+
+        marker_238bed6cf3775c6f583dff973d24af4b.bindPopup(popup_8d536200effe0f90c3b2c159064356cf)
+        ;
+
+        
+    
+    
+            var marker_1d2443273b169dfdff28fed8cfcd14c9 = L.marker(
+                [-36.97676671, 174.8972267],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_14d9f47eb0e3ae8268dad95cfd416387 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d2443273b169dfdff28fed8cfcd14c9.setIcon(icon_14d9f47eb0e3ae8268dad95cfd416387);
+        
+    
+        var popup_46ac52b748b15555e32625e9b45eaf1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8002a7fcdc94b4d344157f3c02cf3582 = $(`<div id="html_8002a7fcdc94b4d344157f3c02cf3582" style="width: 100.0%; height: 100.0%;">FreshChoice Flat Bush</div>`)[0];
+                popup_46ac52b748b15555e32625e9b45eaf1f.setContent(html_8002a7fcdc94b4d344157f3c02cf3582);
+            
+        
+
+        marker_1d2443273b169dfdff28fed8cfcd14c9.bindPopup(popup_46ac52b748b15555e32625e9b45eaf1f)
+        ;
+
+        
+    
+    
+            var marker_d90f8cac9e7ffb79c4fcd4e52b69e87b = L.marker(
+                [-36.91087436, 174.6545496],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_66619b6b930bdaa7ded1544c3cf3751d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d90f8cac9e7ffb79c4fcd4e52b69e87b.setIcon(icon_66619b6b930bdaa7ded1544c3cf3751d);
+        
+    
+        var popup_4480d0eb279b5b6019e03b6085273c0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_692e3a36cf729590dc032a821d20bf68 = $(`<div id="html_692e3a36cf729590dc032a821d20bf68" style="width: 100.0%; height: 100.0%;">FreshChoice Glen Eden</div>`)[0];
+                popup_4480d0eb279b5b6019e03b6085273c0c.setContent(html_692e3a36cf729590dc032a821d20bf68);
+            
+        
+
+        marker_d90f8cac9e7ffb79c4fcd4e52b69e87b.bindPopup(popup_4480d0eb279b5b6019e03b6085273c0c)
+        ;
+
+        
+    
+    
+            var marker_915765544d1807ce1c476c4cf9033105 = L.marker(
+                [-36.88106607, 174.9002827],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_b8775d0677a363b16c7650beed9b67e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_915765544d1807ce1c476c4cf9033105.setIcon(icon_b8775d0677a363b16c7650beed9b67e3);
+        
+    
+        var popup_57017a44db4fc5162c496954ec1c6257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ee30a98f53f978f0ef78951a3c64001 = $(`<div id="html_5ee30a98f53f978f0ef78951a3c64001" style="width: 100.0%; height: 100.0%;">FreshChoice Half Moon Bay</div>`)[0];
+                popup_57017a44db4fc5162c496954ec1c6257.setContent(html_5ee30a98f53f978f0ef78951a3c64001);
+            
+        
+
+        marker_915765544d1807ce1c476c4cf9033105.bindPopup(popup_57017a44db4fc5162c496954ec1c6257)
+        ;
+
+        
+    
+    
+            var marker_02582daa84f9c697407b85629e40a63e = L.marker(
+                [-36.94250829, 174.7869875],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_0690dea24b53c907827620d4f85921e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_02582daa84f9c697407b85629e40a63e.setIcon(icon_0690dea24b53c907827620d4f85921e3);
+        
+    
+        var popup_b7ec95c91dd627f112e895a062153af0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_483335e91f3e8eb5a1291d96a5873604 = $(`<div id="html_483335e91f3e8eb5a1291d96a5873604" style="width: 100.0%; height: 100.0%;">FreshChoice Mangere Bridge</div>`)[0];
+                popup_b7ec95c91dd627f112e895a062153af0.setContent(html_483335e91f3e8eb5a1291d96a5873604);
+            
+        
+
+        marker_02582daa84f9c697407b85629e40a63e.bindPopup(popup_b7ec95c91dd627f112e895a062153af0)
+        ;
+
+        
+    
+    
+            var marker_8b1b6c5519a3c2bd8cd0b26675afdcbc = L.marker(
+                [-36.94480584, 174.8431184],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_4606233e70bbbf9961080b37947b9c8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b1b6c5519a3c2bd8cd0b26675afdcbc.setIcon(icon_4606233e70bbbf9961080b37947b9c8e);
+        
+    
+        var popup_35e2abdd9b9661f0def55994d8acf3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff84d50f0cc40f4f4e37272ecb370f8e = $(`<div id="html_ff84d50f0cc40f4f4e37272ecb370f8e" style="width: 100.0%; height: 100.0%;">FreshChoice Otahuhu</div>`)[0];
+                popup_35e2abdd9b9661f0def55994d8acf3f6.setContent(html_ff84d50f0cc40f4f4e37272ecb370f8e);
+            
+        
+
+        marker_8b1b6c5519a3c2bd8cd0b26675afdcbc.bindPopup(popup_35e2abdd9b9661f0def55994d8acf3f6)
+        ;
+
+        
+    
+    
+            var marker_9961a9b3308a58a98550ed708f5d5b96 = L.marker(
+                [-36.88287566, 174.6161793],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_893d07c282692caa6c8e0460f2715849 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9961a9b3308a58a98550ed708f5d5b96.setIcon(icon_893d07c282692caa6c8e0460f2715849);
+        
+    
+        var popup_86ac2b5f5776d0e5b198063b51df90f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ab9210121c660a546b40cee30629f62 = $(`<div id="html_3ab9210121c660a546b40cee30629f62" style="width: 100.0%; height: 100.0%;">FreshChoice Palomino</div>`)[0];
+                popup_86ac2b5f5776d0e5b198063b51df90f9.setContent(html_3ab9210121c660a546b40cee30629f62);
+            
+        
+
+        marker_9961a9b3308a58a98550ed708f5d5b96.bindPopup(popup_86ac2b5f5776d0e5b198063b51df90f9)
+        ;
+
+        
+    
+    
+            var marker_382720b1412f6e6cd844db4d0c50b709 = L.marker(
+                [-37.06606311, 174.9556975],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_145f8cebae36cc2a690c78582274f0ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_382720b1412f6e6cd844db4d0c50b709.setIcon(icon_145f8cebae36cc2a690c78582274f0ea);
+        
+    
+        var popup_5f2029a5a463ab92683dab34f3c0f9f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8acc5cd7836ab4737c42591542741f0 = $(`<div id="html_d8acc5cd7836ab4737c42591542741f0" style="width: 100.0%; height: 100.0%;">FreshChoice Papakura</div>`)[0];
+                popup_5f2029a5a463ab92683dab34f3c0f9f6.setContent(html_d8acc5cd7836ab4737c42591542741f0);
+            
+        
+
+        marker_382720b1412f6e6cd844db4d0c50b709.bindPopup(popup_5f2029a5a463ab92683dab34f3c0f9f6)
+        ;
+
+        
+    
+    
+            var marker_63ab31591f522cc6fcf91842a5635715 = L.marker(
+                [-36.86353948, 174.6015834],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_ff9d54738d30a4874c0a496620a3a05c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63ab31591f522cc6fcf91842a5635715.setIcon(icon_ff9d54738d30a4874c0a496620a3a05c);
+        
+    
+        var popup_41a00a3bc763f753b873ad356f5e2888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c0ee683ba48ded70a65808bbcdb0abd = $(`<div id="html_5c0ee683ba48ded70a65808bbcdb0abd" style="width: 100.0%; height: 100.0%;">FreshChoice Ranui</div>`)[0];
+                popup_41a00a3bc763f753b873ad356f5e2888.setContent(html_5c0ee683ba48ded70a65808bbcdb0abd);
+            
+        
+
+        marker_63ab31591f522cc6fcf91842a5635715.bindPopup(popup_41a00a3bc763f753b873ad356f5e2888)
+        ;
+
+        
+    
+    
+            var marker_8ef4a1890a3e66bfe1af3df864676647 = L.marker(
+                [-36.93739048, 174.6572984],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_4bfcb46883ff3853fc3311e6b053e0a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ef4a1890a3e66bfe1af3df864676647.setIcon(icon_4bfcb46883ff3853fc3311e6b053e0a2);
+        
+    
+        var popup_9b222085ee6bc37d28c6ac3e51d6063c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e364ead8c5d8dac8c570e91a6a97b0f = $(`<div id="html_2e364ead8c5d8dac8c570e91a6a97b0f" style="width: 100.0%; height: 100.0%;">FreshChoice Titirangi</div>`)[0];
+                popup_9b222085ee6bc37d28c6ac3e51d6063c.setContent(html_2e364ead8c5d8dac8c570e91a6a97b0f);
+            
+        
+
+        marker_8ef4a1890a3e66bfe1af3df864676647.bindPopup(popup_9b222085ee6bc37d28c6ac3e51d6063c)
+        ;
+
+        
+    
+    
+            var marker_1afd03192729bf55ca5a0a550f9d7dca = L.marker(
+                [-36.84350157, 174.7658662],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3312b0f376f83ad09f9a0e9f5f172108 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1afd03192729bf55ca5a0a550f9d7dca.setIcon(icon_3312b0f376f83ad09f9a0e9f5f172108);
+        
+    
+        var popup_0d0116d8de8a627f10a7227a222c819c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b1551bb6c782d837a5c6132102aea1d = $(`<div id="html_5b1551bb6c782d837a5c6132102aea1d" style="width: 100.0%; height: 100.0%;">Metro Albert Street</div>`)[0];
+                popup_0d0116d8de8a627f10a7227a222c819c.setContent(html_5b1551bb6c782d837a5c6132102aea1d);
+            
+        
+
+        marker_1afd03192729bf55ca5a0a550f9d7dca.bindPopup(popup_0d0116d8de8a627f10a7227a222c819c)
+        ;
+
+        
+    
+    
+            var marker_34bc57773b8cf60fc6af750a153b86b2 = L.marker(
+                [-36.84358106, 174.7578066],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_cedebd21818d2f7af6e4ee28e5aaffa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_34bc57773b8cf60fc6af750a153b86b2.setIcon(icon_cedebd21818d2f7af6e4ee28e5aaffa6);
+        
+    
+        var popup_4a4441ad0c1c0d4109b7c30befcc7266 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cce04d40a8c37ee2aa3dc5c2f903fb0 = $(`<div id="html_8cce04d40a8c37ee2aa3dc5c2f903fb0" style="width: 100.0%; height: 100.0%;">Metro Halsey Street</div>`)[0];
+                popup_4a4441ad0c1c0d4109b7c30befcc7266.setContent(html_8cce04d40a8c37ee2aa3dc5c2f903fb0);
+            
+        
+
+        marker_34bc57773b8cf60fc6af750a153b86b2.bindPopup(popup_4a4441ad0c1c0d4109b7c30befcc7266)
+        ;
+
+        
+    
+    
+            var marker_498a4fc9dd73bce01be28edaa8cbc372 = L.marker(
+                [-36.84651051, 174.7334683],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_c288dda9cbebf429edce3c5a8d62539d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_498a4fc9dd73bce01be28edaa8cbc372.setIcon(icon_c288dda9cbebf429edce3c5a8d62539d);
+        
+    
+        var popup_bb626ebe6f8b475866de4fa34c57c03a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0af64745d1479cd4a8a11041635a2dc = $(`<div id="html_f0af64745d1479cd4a8a11041635a2dc" style="width: 100.0%; height: 100.0%;">Metro Herne Bay</div>`)[0];
+                popup_bb626ebe6f8b475866de4fa34c57c03a.setContent(html_f0af64745d1479cd4a8a11041635a2dc);
+            
+        
+
+        marker_498a4fc9dd73bce01be28edaa8cbc372.bindPopup(popup_bb626ebe6f8b475866de4fa34c57c03a)
+        ;
+
+        
+    
+    
+            var marker_6704d7620f952594ef5f97380807da00 = L.marker(
+                [-36.89776863, 174.69741],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f0be7f6b4a5bbb0fa9c9f716e9f28d0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6704d7620f952594ef5f97380807da00.setIcon(icon_f0be7f6b4a5bbb0fa9c9f716e9f28d0a);
+        
+    
+        var popup_461918292dd58f80e092e9081db510cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1245327d94a124d90270b6181b319248 = $(`<div id="html_1245327d94a124d90270b6181b319248" style="width: 100.0%; height: 100.0%;">SuperValue Avondale</div>`)[0];
+                popup_461918292dd58f80e092e9081db510cc.setContent(html_1245327d94a124d90270b6181b319248);
+            
+        
+
+        marker_6704d7620f952594ef5f97380807da00.bindPopup(popup_461918292dd58f80e092e9081db510cc)
+        ;
+
+        
+    
+    
+            var marker_b8eec0d2be98f9cfe4b8dbeb80da2971 = L.marker(
+                [-36.99736985, 174.7888823],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3861d48ecd33f3fbd6e2f6c29ae6596f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8eec0d2be98f9cfe4b8dbeb80da2971.setIcon(icon_3861d48ecd33f3fbd6e2f6c29ae6596f);
+        
+    
+        var popup_81aff1fc77e65264299f0c698096529e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8fc9071438fdd6854872658d8cb29fe = $(`<div id="html_a8fc9071438fdd6854872658d8cb29fe" style="width: 100.0%; height: 100.0%;">Woolworths Airport</div>`)[0];
+                popup_81aff1fc77e65264299f0c698096529e.setContent(html_a8fc9071438fdd6854872658d8cb29fe);
+            
+        
+
+        marker_b8eec0d2be98f9cfe4b8dbeb80da2971.bindPopup(popup_81aff1fc77e65264299f0c698096529e)
+        ;
+
+        
+    
+    
+            var marker_6ac0a99f1b740c4389f53e388c1fa48d = L.marker(
+                [-36.84496186, 174.7731192],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_edb3303374975559d24bd79fa5327476 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ac0a99f1b740c4389f53e388c1fa48d.setIcon(icon_edb3303374975559d24bd79fa5327476);
+        
+    
+        var popup_6f6c890c4f9ee62d7688a6959f0396da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec541b1c901bccbb318011387b55702d = $(`<div id="html_ec541b1c901bccbb318011387b55702d" style="width: 100.0%; height: 100.0%;">Woolworths Auckland City</div>`)[0];
+                popup_6f6c890c4f9ee62d7688a6959f0396da.setContent(html_ec541b1c901bccbb318011387b55702d);
+            
+        
+
+        marker_6ac0a99f1b740c4389f53e388c1fa48d.bindPopup(popup_6f6c890c4f9ee62d7688a6959f0396da)
+        ;
+
+        
+    
+    
+            var marker_ed423cbb6589cfcbf471debb1af5a4eb = L.marker(
+                [-36.84853355, 174.7648512],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_7f0333243209d05f6c4cbd0f9b402d1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ed423cbb6589cfcbf471debb1af5a4eb.setIcon(icon_7f0333243209d05f6c4cbd0f9b402d1d);
+        
+    
+        var popup_cde00d9fc86ab8942f7b9c1637aaf815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9afe732dc30479cb2001940f8b8f7f8e = $(`<div id="html_9afe732dc30479cb2001940f8b8f7f8e" style="width: 100.0%; height: 100.0%;">Woolworths Auckland Victoria Street West</div>`)[0];
+                popup_cde00d9fc86ab8942f7b9c1637aaf815.setContent(html_9afe732dc30479cb2001940f8b8f7f8e);
+            
+        
+
+        marker_ed423cbb6589cfcbf471debb1af5a4eb.bindPopup(popup_cde00d9fc86ab8942f7b9c1637aaf815)
+        ;
+
+        
+    
+    
+            var marker_7d1d0f4eda64509d58db8c12187702f1 = L.marker(
+                [-36.81111802, 174.7248776],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_a0f989605dbf09f63c80e0a0d577e934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d1d0f4eda64509d58db8c12187702f1.setIcon(icon_a0f989605dbf09f63c80e0a0d577e934);
+        
+    
+        var popup_23ed18627e743fe76c47da419207215e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1572bb332ef04927327b8b227332e736 = $(`<div id="html_1572bb332ef04927327b8b227332e736" style="width: 100.0%; height: 100.0%;">Woolworths Birkenhead</div>`)[0];
+                popup_23ed18627e743fe76c47da419207215e.setContent(html_1572bb332ef04927327b8b227332e736);
+            
+        
+
+        marker_7d1d0f4eda64509d58db8c12187702f1.bindPopup(popup_23ed18627e743fe76c47da419207215e)
+        ;
+
+        
+    
+    
+            var marker_2269dd74ffa68870f250b31a0fed0f3d = L.marker(
+                [-36.92291876, 174.7023521],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_22b4ce8e145359427a6a20af91ce8b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2269dd74ffa68870f250b31a0fed0f3d.setIcon(icon_22b4ce8e145359427a6a20af91ce8b86);
+        
+    
+        var popup_5a1ab85b5536c8dfec20100c274e6ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5deb469454aaef07e06d6d23bc8195e = $(`<div id="html_d5deb469454aaef07e06d6d23bc8195e" style="width: 100.0%; height: 100.0%;">Woolworths Blockhouse Bay</div>`)[0];
+                popup_5a1ab85b5536c8dfec20100c274e6ed0.setContent(html_d5deb469454aaef07e06d6d23bc8195e);
+            
+        
+
+        marker_2269dd74ffa68870f250b31a0fed0f3d.bindPopup(popup_5a1ab85b5536c8dfec20100c274e6ed0)
+        ;
+
+        
+    
+    
+            var marker_c91198b2c3878a8ddfcc47ffe86e7254 = L.marker(
+                [-36.92972626, 174.9110718],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_02794f5a78f04259ce547b8769a17e1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c91198b2c3878a8ddfcc47ffe86e7254.setIcon(icon_02794f5a78f04259ce547b8769a17e1f);
+        
+    
+        var popup_aecd57833cfe970f4f8327b545933d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34ad7f9e3444f9f2d3482c5de2af3872 = $(`<div id="html_34ad7f9e3444f9f2d3482c5de2af3872" style="width: 100.0%; height: 100.0%;">Woolworths Botany Downs</div>`)[0];
+                popup_aecd57833cfe970f4f8327b545933d90.setContent(html_34ad7f9e3444f9f2d3482c5de2af3872);
+            
+        
+
+        marker_c91198b2c3878a8ddfcc47ffe86e7254.bindPopup(popup_aecd57833cfe970f4f8327b545933d90)
+        ;
+
+        
+    
+    
+            var marker_15e5bc32944fde3e1c8963fe8b03c60b = L.marker(
+                [-36.71714479, 174.7472772],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_ad0bcc751bee35c43ba23900442f02fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15e5bc32944fde3e1c8963fe8b03c60b.setIcon(icon_ad0bcc751bee35c43ba23900442f02fb);
+        
+    
+        var popup_ee60d6b04aa031e9666d610ee79eb9d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fba4276142d745627f6e6c940fe2dc0 = $(`<div id="html_0fba4276142d745627f6e6c940fe2dc0" style="width: 100.0%; height: 100.0%;">Woolworths Browns Bay</div>`)[0];
+                popup_ee60d6b04aa031e9666d610ee79eb9d5.setContent(html_0fba4276142d745627f6e6c940fe2dc0);
+            
+        
+
+        marker_15e5bc32944fde3e1c8963fe8b03c60b.bindPopup(popup_ee60d6b04aa031e9666d610ee79eb9d5)
+        ;
+
+        
+    
+    
+            var marker_5cd16d1c27c351003bfe40af0ead1300 = L.marker(
+                [-36.78148813, 174.7234262],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_adeb90020945818df092f208f28e59f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5cd16d1c27c351003bfe40af0ead1300.setIcon(icon_adeb90020945818df092f208f28e59f8);
+        
+    
+        var popup_1519ef3a9e6dc6ba420a35f0047581fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5c4d1b7c3d1350c56121a2dfde18359 = $(`<div id="html_d5c4d1b7c3d1350c56121a2dfde18359" style="width: 100.0%; height: 100.0%;">Woolworths Glenfield</div>`)[0];
+                popup_1519ef3a9e6dc6ba420a35f0047581fa.setContent(html_d5c4d1b7c3d1350c56121a2dfde18359);
+            
+        
+
+        marker_5cd16d1c27c351003bfe40af0ead1300.bindPopup(popup_1519ef3a9e6dc6ba420a35f0047581fa)
+        ;
+
+        
+    
+    
+            var marker_cd99361eb4bf2edb6140e9016447444b = L.marker(
+                [-36.88916156, 174.7935037],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_6bde942c12bbd9b7448f110377a08512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd99361eb4bf2edb6140e9016447444b.setIcon(icon_6bde942c12bbd9b7448f110377a08512);
+        
+    
+        var popup_9e791ef40d0983b833ea1f8fc2902da9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56ad7a7a836de7705c86bbb19ac94b53 = $(`<div id="html_56ad7a7a836de7705c86bbb19ac94b53" style="width: 100.0%; height: 100.0%;">Woolworths Greenlane</div>`)[0];
+                popup_9e791ef40d0983b833ea1f8fc2902da9.setContent(html_56ad7a7a836de7705c86bbb19ac94b53);
+            
+        
+
+        marker_cd99361eb4bf2edb6140e9016447444b.bindPopup(popup_9e791ef40d0983b833ea1f8fc2902da9)
+        ;
+
+        
+    
+    
+            var marker_b14c9154339cefde0b9f809281a52241 = L.marker(
+                [-36.73170033, 174.7209467],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_22c360d7eba34b22b4989b2ef8d9e41f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b14c9154339cefde0b9f809281a52241.setIcon(icon_22c360d7eba34b22b4989b2ef8d9e41f);
+        
+    
+        var popup_57932164411bb2d7e858e18c7bcffc33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e8a448b5b93451e20f69c646c06b2bd = $(`<div id="html_7e8a448b5b93451e20f69c646c06b2bd" style="width: 100.0%; height: 100.0%;">Woolworths Greville Road</div>`)[0];
+                popup_57932164411bb2d7e858e18c7bcffc33.setContent(html_7e8a448b5b93451e20f69c646c06b2bd);
+            
+        
+
+        marker_b14c9154339cefde0b9f809281a52241.bindPopup(popup_57932164411bb2d7e858e18c7bcffc33)
+        ;
+
+        
+    
+    
+            var marker_ccb311a126106318611c29c260e29ae0 = L.marker(
+                [-36.85416528, 174.7317139],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_172ce7b82396abb5393b8c7961949cfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccb311a126106318611c29c260e29ae0.setIcon(icon_172ce7b82396abb5393b8c7961949cfe);
+        
+    
+        var popup_b6cde946f5c9f5c3ae6f75ab53143cb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2961ebc95383abebcdad052b24b630da = $(`<div id="html_2961ebc95383abebcdad052b24b630da" style="width: 100.0%; height: 100.0%;">Woolworths Grey Lynn</div>`)[0];
+                popup_b6cde946f5c9f5c3ae6f75ab53143cb9.setContent(html_2961ebc95383abebcdad052b24b630da);
+            
+        
+
+        marker_ccb311a126106318611c29c260e29ae0.bindPopup(popup_b6cde946f5c9f5c3ae6f75ab53143cb9)
+        ;
+
+        
+    
+    
+            var marker_9be58728098b6bbd2fe07768de01422f = L.marker(
+                [-36.79667981, 174.7781249],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_5e4fe10a570b2cd438115ab29db55f65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9be58728098b6bbd2fe07768de01422f.setIcon(icon_5e4fe10a570b2cd438115ab29db55f65);
+        
+    
+        var popup_cbbf15a6ea44f0ded94ed836cca61449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35257e050dc9ef71e18d042c0d9ddbe2 = $(`<div id="html_35257e050dc9ef71e18d042c0d9ddbe2" style="width: 100.0%; height: 100.0%;">Woolworths Hauraki Corner</div>`)[0];
+                popup_cbbf15a6ea44f0ded94ed836cca61449.setContent(html_35257e050dc9ef71e18d042c0d9ddbe2);
+            
+        
+
+        marker_9be58728098b6bbd2fe07768de01422f.bindPopup(popup_cbbf15a6ea44f0ded94ed836cca61449)
+        ;
+
+        
+    
+    
+            var marker_1dc7903d4972c79c24ae302d107bbee4 = L.marker(
+                [-36.88089456, 174.6332277],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_2e9afea1c519a2ff3a448c52da32c98e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1dc7903d4972c79c24ae302d107bbee4.setIcon(icon_2e9afea1c519a2ff3a448c52da32c98e);
+        
+    
+        var popup_144ed4ef5777463a8256e1e1a6e85a47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3955a559949ca0f8d5b78f426f5b9b3d = $(`<div id="html_3955a559949ca0f8d5b78f426f5b9b3d" style="width: 100.0%; height: 100.0%;">Woolworths Henderson</div>`)[0];
+                popup_144ed4ef5777463a8256e1e1a6e85a47.setContent(html_3955a559949ca0f8d5b78f426f5b9b3d);
+            
+        
+
+        marker_1dc7903d4972c79c24ae302d107bbee4.bindPopup(popup_144ed4ef5777463a8256e1e1a6e85a47)
+        ;
+
+        
+    
+    
+            var marker_8eab9a9197b3eba2023cea2b95df704b = L.marker(
+                [-36.89933061, 174.9084309],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_357e1849e5f9d46ba421b9f2bd4a6d04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8eab9a9197b3eba2023cea2b95df704b.setIcon(icon_357e1849e5f9d46ba421b9f2bd4a6d04);
+        
+    
+        var popup_ce3487d0b5f48ef435c59ca2bc935d72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9caa05ceb111903cc867b2b67c28e146 = $(`<div id="html_9caa05ceb111903cc867b2b67c28e146" style="width: 100.0%; height: 100.0%;">Woolworths Highland Park</div>`)[0];
+                popup_ce3487d0b5f48ef435c59ca2bc935d72.setContent(html_9caa05ceb111903cc867b2b67c28e146);
+            
+        
+
+        marker_8eab9a9197b3eba2023cea2b95df704b.bindPopup(popup_ce3487d0b5f48ef435c59ca2bc935d72)
+        ;
+
+        
+    
+    
+            var marker_dd21d6ace7632f2d36008c9af7b1a04f = L.marker(
+                [-36.79748845, 174.6487257],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_b317c09153405945a9133a27f2e3bf0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd21d6ace7632f2d36008c9af7b1a04f.setIcon(icon_b317c09153405945a9133a27f2e3bf0c);
+        
+    
+        var popup_f51eb02a216627bf38e5312ea28e566c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb7401bcfeaa8639e39e791dc309dd66 = $(`<div id="html_eb7401bcfeaa8639e39e791dc309dd66" style="width: 100.0%; height: 100.0%;">Woolworths Hobsonville</div>`)[0];
+                popup_f51eb02a216627bf38e5312ea28e566c.setContent(html_eb7401bcfeaa8639e39e791dc309dd66);
+            
+        
+
+        marker_dd21d6ace7632f2d36008c9af7b1a04f.bindPopup(popup_f51eb02a216627bf38e5312ea28e566c)
+        ;
+
+        
+    
+    
+            var marker_47e07d6776c7f8462286b9858e7e69a8 = L.marker(
+                [-36.89585201, 174.9335377],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_422aa41f7375c3638f086d4e471f30a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_47e07d6776c7f8462286b9858e7e69a8.setIcon(icon_422aa41f7375c3638f086d4e471f30a0);
+        
+    
+        var popup_7f248606ed19e8c5ada501ce117883be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26ddbf075791becec6e0e4786a676049 = $(`<div id="html_26ddbf075791becec6e0e4786a676049" style="width: 100.0%; height: 100.0%;">Woolworths Howick</div>`)[0];
+                popup_7f248606ed19e8c5ada501ce117883be.setContent(html_26ddbf075791becec6e0e4786a676049);
+            
+        
+
+        marker_47e07d6776c7f8462286b9858e7e69a8.bindPopup(popup_7f248606ed19e8c5ada501ce117883be)
+        ;
+
+        
+    
+    
+            var marker_3baf3b85bcd621f13c058b8058c063af = L.marker(
+                [-36.8568778, 174.6325126],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_c07e7b386ee6cdd7b67712ddcec83686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3baf3b85bcd621f13c058b8058c063af.setIcon(icon_c07e7b386ee6cdd7b67712ddcec83686);
+        
+    
+        var popup_e7a07cd50a45d097498d317f5912a7a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f1a80555d4baa46b02f69a7203a7824 = $(`<div id="html_0f1a80555d4baa46b02f69a7203a7824" style="width: 100.0%; height: 100.0%;">Woolworths Lincoln Road</div>`)[0];
+                popup_e7a07cd50a45d097498d317f5912a7a4.setContent(html_0f1a80555d4baa46b02f69a7203a7824);
+            
+        
+
+        marker_3baf3b85bcd621f13c058b8058c063af.bindPopup(popup_e7a07cd50a45d097498d317f5912a7a4)
+        ;
+
+        
+    
+    
+            var marker_51caf4428c4d59f1a565e9e40ca9937f = L.marker(
+                [-36.90687152, 174.6850146],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_9679c3ebd6ac6cc43b1c3229d7c2bcdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_51caf4428c4d59f1a565e9e40ca9937f.setIcon(icon_9679c3ebd6ac6cc43b1c3229d7c2bcdb);
+        
+    
+        var popup_0973f3dbb12a6d104e337ffabf1056a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d762444a717abf6cc7b36ade2d1a4a64 = $(`<div id="html_d762444a717abf6cc7b36ade2d1a4a64" style="width: 100.0%; height: 100.0%;">Woolworths Lynnmall</div>`)[0];
+                popup_0973f3dbb12a6d104e337ffabf1056a2.setContent(html_d762444a717abf6cc7b36ade2d1a4a64);
+            
+        
+
+        marker_51caf4428c4d59f1a565e9e40ca9937f.bindPopup(popup_0973f3dbb12a6d104e337ffabf1056a2)
+        ;
+
+        
+    
+    
+            var marker_f3dbbd4e48da1dc59fcea6c0f2643db7 = L.marker(
+                [-36.73941255, 174.7540551],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_c689a7393eac946cfe9092f86521246a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3dbbd4e48da1dc59fcea6c0f2643db7.setIcon(icon_c689a7393eac946cfe9092f86521246a);
+        
+    
+        var popup_2c5cf11e72ec4f5fb14c28afd16c429d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa5330f8216bd57b02dca9684de7236a = $(`<div id="html_fa5330f8216bd57b02dca9684de7236a" style="width: 100.0%; height: 100.0%;">Woolworths Mairangi Bay</div>`)[0];
+                popup_2c5cf11e72ec4f5fb14c28afd16c429d.setContent(html_fa5330f8216bd57b02dca9684de7236a);
+            
+        
+
+        marker_f3dbbd4e48da1dc59fcea6c0f2643db7.bindPopup(popup_2c5cf11e72ec4f5fb14c28afd16c429d)
+        ;
+
+        
+    
+    
+            var marker_1df17302d4e1598e2e4313fc49b22576 = L.marker(
+                [-36.9657908, 174.825346],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_c0c3a738fb07e31de2c3b38ae386382d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1df17302d4e1598e2e4313fc49b22576.setIcon(icon_c0c3a738fb07e31de2c3b38ae386382d);
+        
+    
+        var popup_8b336e342fa007cb91c759f5cc6477d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15bc6a59a7d562c8327015da13e2b31d = $(`<div id="html_15bc6a59a7d562c8327015da13e2b31d" style="width: 100.0%; height: 100.0%;">Woolworths Mangere East</div>`)[0];
+                popup_8b336e342fa007cb91c759f5cc6477d2.setContent(html_15bc6a59a7d562c8327015da13e2b31d);
+            
+        
+
+        marker_1df17302d4e1598e2e4313fc49b22576.bindPopup(popup_8b336e342fa007cb91c759f5cc6477d2)
+        ;
+
+        
+    
+    
+            var marker_314a3d62a80bbb33cdc65b25bf9283ba = L.marker(
+                [-36.96987802, 174.8011202],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_082f0ec38a230070a1266317e657154f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_314a3d62a80bbb33cdc65b25bf9283ba.setIcon(icon_082f0ec38a230070a1266317e657154f);
+        
+    
+        var popup_77be55160531cdc34289801f73ea4bb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81487976985515a71ca03bc12a72439b = $(`<div id="html_81487976985515a71ca03bc12a72439b" style="width: 100.0%; height: 100.0%;">Woolworths Mangere Mall</div>`)[0];
+                popup_77be55160531cdc34289801f73ea4bb6.setContent(html_81487976985515a71ca03bc12a72439b);
+            
+        
+
+        marker_314a3d62a80bbb33cdc65b25bf9283ba.bindPopup(popup_77be55160531cdc34289801f73ea4bb6)
+        ;
+
+        
+    
+    
+            var marker_9911dbeb4b156e7e79cc596cd85b70e2 = L.marker(
+                [-36.98676855, 174.8848148],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_652b43f03049955b30080c3b014749d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9911dbeb4b156e7e79cc596cd85b70e2.setIcon(icon_652b43f03049955b30080c3b014749d6);
+        
+    
+        var popup_6bc2be3384ecd8be88e046506b8c680e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1475d8f57ec6837218732110ed2013 = $(`<div id="html_bc1475d8f57ec6837218732110ed2013" style="width: 100.0%; height: 100.0%;">Woolworths Manukau</div>`)[0];
+                popup_6bc2be3384ecd8be88e046506b8c680e.setContent(html_bc1475d8f57ec6837218732110ed2013);
+            
+        
+
+        marker_9911dbeb4b156e7e79cc596cd85b70e2.bindPopup(popup_6bc2be3384ecd8be88e046506b8c680e)
+        ;
+
+        
+    
+    
+            var marker_06a698a0ccfc2bd19b415fc34d76aaa1 = L.marker(
+                [-36.99174967, 174.8831931],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_030e387eb926be5b92bbcbdc97a0cc36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06a698a0ccfc2bd19b415fc34d76aaa1.setIcon(icon_030e387eb926be5b92bbcbdc97a0cc36);
+        
+    
+        var popup_df8fbee27bea763ba5dd8aeda6d1a6f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50840698e803b9a673167195d4bc4d6b = $(`<div id="html_50840698e803b9a673167195d4bc4d6b" style="width: 100.0%; height: 100.0%;">Woolworths Manukau Mall</div>`)[0];
+                popup_df8fbee27bea763ba5dd8aeda6d1a6f5.setContent(html_50840698e803b9a673167195d4bc4d6b);
+            
+        
+
+        marker_06a698a0ccfc2bd19b415fc34d76aaa1.bindPopup(popup_df8fbee27bea763ba5dd8aeda6d1a6f5)
+        ;
+
+        
+    
+    
+            var marker_4b9331651cb93362bba7cc9fb63f97c2 = L.marker(
+                [-37.01734442, 174.8651097],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_652944190d4b0f40c6c9b10279943d70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b9331651cb93362bba7cc9fb63f97c2.setIcon(icon_652944190d4b0f40c6c9b10279943d70);
+        
+    
+        var popup_81ad51e2df9db7c6806d59decc618df2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c039a49830de5625b8532f83b01ea0 = $(`<div id="html_c1c039a49830de5625b8532f83b01ea0" style="width: 100.0%; height: 100.0%;">Woolworths Manurewa</div>`)[0];
+                popup_81ad51e2df9db7c6806d59decc618df2.setContent(html_c1c039a49830de5625b8532f83b01ea0);
+            
+        
+
+        marker_4b9331651cb93362bba7cc9fb63f97c2.bindPopup(popup_81ad51e2df9db7c6806d59decc618df2)
+        ;
+
+        
+    
+    
+            var marker_f39983cf49a766eb9c6dbc6517a906dc = L.marker(
+                [-36.87610706, 174.8289359],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8a4d347b07a601d6d9ea8d774ee69373 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f39983cf49a766eb9c6dbc6517a906dc.setIcon(icon_8a4d347b07a601d6d9ea8d774ee69373);
+        
+    
+        var popup_5d3823867d134a0e2ec226261574ea7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87639b651142bdf083f54129712626ec = $(`<div id="html_87639b651142bdf083f54129712626ec" style="width: 100.0%; height: 100.0%;">Woolworths Meadowbank</div>`)[0];
+                popup_5d3823867d134a0e2ec226261574ea7c.setContent(html_87639b651142bdf083f54129712626ec);
+            
+        
+
+        marker_f39983cf49a766eb9c6dbc6517a906dc.bindPopup(popup_5d3823867d134a0e2ec226261574ea7c)
+        ;
+
+        
+    
+    
+            var marker_37ff2031ff9ab1ea111d1e2a3b237b62 = L.marker(
+                [-36.9132518, 174.929465],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_a807535c75415a830b590a2c73402e6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37ff2031ff9ab1ea111d1e2a3b237b62.setIcon(icon_a807535c75415a830b590a2c73402e6f);
+        
+    
+        var popup_36d8ff0572b74c00023ff31ecce187be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfbcaf6b279abaae8fdb5b2dc36c413c = $(`<div id="html_bfbcaf6b279abaae8fdb5b2dc36c413c" style="width: 100.0%; height: 100.0%;">Woolworths Meadowlands</div>`)[0];
+                popup_36d8ff0572b74c00023ff31ecce187be.setContent(html_bfbcaf6b279abaae8fdb5b2dc36c413c);
+            
+        
+
+        marker_37ff2031ff9ab1ea111d1e2a3b237b62.bindPopup(popup_36d8ff0572b74c00023ff31ecce187be)
+        ;
+
+        
+    
+    
+            var marker_edfcd23069156332b4920116c2b6152e = L.marker(
+                [-36.77197217, 174.7666177],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_fc0d54538e812d5b48125261a3626614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_edfcd23069156332b4920116c2b6152e.setIcon(icon_fc0d54538e812d5b48125261a3626614);
+        
+    
+        var popup_79efb0bee5d93ac6d59a0a727ac91923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ee9840de575a4329751a8eb3a3b36a8 = $(`<div id="html_3ee9840de575a4329751a8eb3a3b36a8" style="width: 100.0%; height: 100.0%;">Woolworths Milford</div>`)[0];
+                popup_79efb0bee5d93ac6d59a0a727ac91923.setContent(html_3ee9840de575a4329751a8eb3a3b36a8);
+            
+        
+
+        marker_edfcd23069156332b4920116c2b6152e.bindPopup(popup_79efb0bee5d93ac6d59a0a727ac91923)
+        ;
+
+        
+    
+    
+            var marker_1dfe3408251af631546c173c8a8ebaa1 = L.marker(
+                [-36.87718131, 174.7523352],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8886976404099bc106f94a9e9b1d4507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1dfe3408251af631546c173c8a8ebaa1.setIcon(icon_8886976404099bc106f94a9e9b1d4507);
+        
+    
+        var popup_3f9efa1b8fac9b187eb5200170709650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e7a87060c33b720209bfe243a43be66 = $(`<div id="html_4e7a87060c33b720209bfe243a43be66" style="width: 100.0%; height: 100.0%;">Woolworths Mt Eden</div>`)[0];
+                popup_3f9efa1b8fac9b187eb5200170709650.setContent(html_4e7a87060c33b720209bfe243a43be66);
+            
+        
+
+        marker_1dfe3408251af631546c173c8a8ebaa1.bindPopup(popup_3f9efa1b8fac9b187eb5200170709650)
+        ;
+
+        
+    
+    
+            var marker_d1536e39f2950ba6edcebbbeb925e7ed = L.marker(
+                [-36.90203359, 174.7356996],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8d9cfc3340e709a7999e6a0dc478f6e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1536e39f2950ba6edcebbbeb925e7ed.setIcon(icon_8d9cfc3340e709a7999e6a0dc478f6e0);
+        
+    
+        var popup_8edab7685aeb60d5db280f2b7fb0cdd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e194b68a165afb153ebc30d5cca76a8e = $(`<div id="html_e194b68a165afb153ebc30d5cca76a8e" style="width: 100.0%; height: 100.0%;">Woolworths Mt Roskill</div>`)[0];
+                popup_8edab7685aeb60d5db280f2b7fb0cdd3.setContent(html_e194b68a165afb153ebc30d5cca76a8e);
+            
+        
+
+        marker_d1536e39f2950ba6edcebbbeb925e7ed.bindPopup(popup_8edab7685aeb60d5db280f2b7fb0cdd3)
+        ;
+
+        
+    
+    
+            var marker_f76e2e7d6e73402f2a1965cff9f4e13a = L.marker(
+                [-36.9093147, 174.837989],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f75a23a8de124b03951b031d47795b39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f76e2e7d6e73402f2a1965cff9f4e13a.setIcon(icon_f75a23a8de124b03951b031d47795b39);
+        
+    
+        var popup_84f851c2daa0d28f012f213df3ca6f51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4d03c5dbbc36ec901128b5a2a4a9f93 = $(`<div id="html_b4d03c5dbbc36ec901128b5a2a4a9f93" style="width: 100.0%; height: 100.0%;">Woolworths Mt Wellington</div>`)[0];
+                popup_84f851c2daa0d28f012f213df3ca6f51.setContent(html_b4d03c5dbbc36ec901128b5a2a4a9f93);
+            
+        
+
+        marker_f76e2e7d6e73402f2a1965cff9f4e13a.bindPopup(popup_84f851c2daa0d28f012f213df3ca6f51)
+        ;
+
+        
+    
+    
+            var marker_2bb6901a44f8e5cd983fcc4c947f5bab = L.marker(
+                [-36.8705446, 174.7754093],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_048e3ab905d9c7bfce6ee998c526995e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2bb6901a44f8e5cd983fcc4c947f5bab.setIcon(icon_048e3ab905d9c7bfce6ee998c526995e);
+        
+    
+        var popup_050022d16bd6d344fa259ebcc50fd270 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef3b9f50cba0ecd3332a0a68bcbeeb3e = $(`<div id="html_ef3b9f50cba0ecd3332a0a68bcbeeb3e" style="width: 100.0%; height: 100.0%;">Woolworths Newmarket</div>`)[0];
+                popup_050022d16bd6d344fa259ebcc50fd270.setContent(html_ef3b9f50cba0ecd3332a0a68bcbeeb3e);
+            
+        
+
+        marker_2bb6901a44f8e5cd983fcc4c947f5bab.bindPopup(popup_050022d16bd6d344fa259ebcc50fd270)
+        ;
+
+        
+    
+    
+            var marker_fe75c924aaf3e7e083929d9f2c17a511 = L.marker(
+                [-36.80035237, 174.7455338],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f6d7a395c2b40afbaaad33be6975ca09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fe75c924aaf3e7e083929d9f2c17a511.setIcon(icon_f6d7a395c2b40afbaaad33be6975ca09);
+        
+    
+        var popup_fa04b364ffe966d971359a3777ec1e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3cedf027524debd38851eac5fd0e540 = $(`<div id="html_c3cedf027524debd38851eac5fd0e540" style="width: 100.0%; height: 100.0%;">Woolworths Northcote</div>`)[0];
+                popup_fa04b364ffe966d971359a3777ec1e1f.setContent(html_c3cedf027524debd38851eac5fd0e540);
+            
+        
+
+        marker_fe75c924aaf3e7e083929d9f2c17a511.bindPopup(popup_fa04b364ffe966d971359a3777ec1e1f)
+        ;
+
+        
+    
+    
+            var marker_77c0d32b788450b93319a907d0b33e3e = L.marker(
+                [-36.81879206, 174.6129291],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_75b391ba67a0d03f3f9118e25a7c039b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77c0d32b788450b93319a907d0b33e3e.setIcon(icon_75b391ba67a0d03f3f9118e25a7c039b);
+        
+    
+        var popup_f8c358a35f78c57e2767a2ddc7d34f47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fba93349a7358bd8d0609c3ce11997eb = $(`<div id="html_fba93349a7358bd8d0609c3ce11997eb" style="width: 100.0%; height: 100.0%;">Woolworths Northwest</div>`)[0];
+                popup_f8c358a35f78c57e2767a2ddc7d34f47.setContent(html_fba93349a7358bd8d0609c3ce11997eb);
+            
+        
+
+        marker_77c0d32b788450b93319a907d0b33e3e.bindPopup(popup_f8c358a35f78c57e2767a2ddc7d34f47)
+        ;
+
+        
+    
+    
+            var marker_9487922e0f95032910c2ad713ef25cda = L.marker(
+                [-36.92249969, 174.7838024],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f2594fcf899a395fcf120913f6937ccc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9487922e0f95032910c2ad713ef25cda.setIcon(icon_f2594fcf899a395fcf120913f6937ccc);
+        
+    
+        var popup_927e3b3be8b897450e33f112f72b2af6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_125673b864bcdd4c5a18d4a94dab9769 = $(`<div id="html_125673b864bcdd4c5a18d4a94dab9769" style="width: 100.0%; height: 100.0%;">Woolworths Onehunga</div>`)[0];
+                popup_927e3b3be8b897450e33f112f72b2af6.setContent(html_125673b864bcdd4c5a18d4a94dab9769);
+            
+        
+
+        marker_9487922e0f95032910c2ad713ef25cda.bindPopup(popup_927e3b3be8b897450e33f112f72b2af6)
+        ;
+
+        
+    
+    
+            var marker_2e975fed085603c237d39f8469626322 = L.marker(
+                [-36.91284146, 174.8714299],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_036b117832ac70aa2dc9fc18c6ae814a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e975fed085603c237d39f8469626322.setIcon(icon_036b117832ac70aa2dc9fc18c6ae814a);
+        
+    
+        var popup_19d2b297a9e4b78d17c4d77f31f802ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d44c9910930b634909fd91fc7908ecd8 = $(`<div id="html_d44c9910930b634909fd91fc7908ecd8" style="width: 100.0%; height: 100.0%;">Woolworths Pakuranga</div>`)[0];
+                popup_19d2b297a9e4b78d17c4d77f31f802ac.setContent(html_d44c9910930b634909fd91fc7908ecd8);
+            
+        
+
+        marker_2e975fed085603c237d39f8469626322.bindPopup(popup_19d2b297a9e4b78d17c4d77f31f802ac)
+        ;
+
+        
+    
+    
+            var marker_30d3feed452b7ef18488b0c556e1a530 = L.marker(
+                [-37.06390487, 174.9447236],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3a0959cf013a8d424831cfba7ac4c8dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30d3feed452b7ef18488b0c556e1a530.setIcon(icon_3a0959cf013a8d424831cfba7ac4c8dd);
+        
+    
+        var popup_a86dc5752856b3f4030a84e4961096d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c7cab51af0fe4545bf802417403474a = $(`<div id="html_9c7cab51af0fe4545bf802417403474a" style="width: 100.0%; height: 100.0%;">Woolworths Papakura</div>`)[0];
+                popup_a86dc5752856b3f4030a84e4961096d8.setContent(html_9c7cab51af0fe4545bf802417403474a);
+            
+        
+
+        marker_30d3feed452b7ef18488b0c556e1a530.bindPopup(popup_a86dc5752856b3f4030a84e4961096d8)
+        ;
+
+        
+    
+    
+            var marker_364fa0e9a41d007e66c0e99d177376bf = L.marker(
+                [-36.97039494, 174.862111],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_a3788b28f632c324a62f4d6a940c94f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_364fa0e9a41d007e66c0e99d177376bf.setIcon(icon_a3788b28f632c324a62f4d6a940c94f8);
+        
+    
+        var popup_e79b981cb75249be0c8d8cae3eb4e92f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_819cceb5dea7181bb13e2bbbca97cfc8 = $(`<div id="html_819cceb5dea7181bb13e2bbbca97cfc8" style="width: 100.0%; height: 100.0%;">Woolworths Papatoetoe</div>`)[0];
+                popup_e79b981cb75249be0c8d8cae3eb4e92f.setContent(html_819cceb5dea7181bb13e2bbbca97cfc8);
+            
+        
+
+        marker_364fa0e9a41d007e66c0e99d177376bf.bindPopup(popup_e79b981cb75249be0c8d8cae3eb4e92f)
+        ;
+
+        
+    
+    
+            var marker_6e68b6836cb3e301d894baa67afc28d6 = L.marker(
+                [-36.8584399, 174.7491386],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d3d68bc21d21344cbcb7781f8ab0d552 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e68b6836cb3e301d894baa67afc28d6.setIcon(icon_d3d68bc21d21344cbcb7781f8ab0d552);
+        
+    
+        var popup_0d7d305d3e0f4e441ab8be7a4724d021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_599826d199f822ae765a3bd84153decc = $(`<div id="html_599826d199f822ae765a3bd84153decc" style="width: 100.0%; height: 100.0%;">Woolworths Ponsonby</div>`)[0];
+                popup_0d7d305d3e0f4e441ab8be7a4724d021.setContent(html_599826d199f822ae765a3bd84153decc);
+            
+        
+
+        marker_6e68b6836cb3e301d894baa67afc28d6.bindPopup(popup_0d7d305d3e0f4e441ab8be7a4724d021)
+        ;
+
+        
+    
+    
+            var marker_cd8368c2315f7b4929f32d95681c9cb7 = L.marker(
+                [-36.86957431, 174.7105595],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_1e3faa58ba24ef23d322301f15abccf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd8368c2315f7b4929f32d95681c9cb7.setIcon(icon_1e3faa58ba24ef23d322301f15abccf3);
+        
+    
+        var popup_9a18539609f9e8e58497917d0e36742b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_590f7d2dd705ac2b2a26280af300c1cc = $(`<div id="html_590f7d2dd705ac2b2a26280af300c1cc" style="width: 100.0%; height: 100.0%;">Woolworths Pt Chevalier</div>`)[0];
+                popup_9a18539609f9e8e58497917d0e36742b.setContent(html_590f7d2dd705ac2b2a26280af300c1cc);
+            
+        
+
+        marker_cd8368c2315f7b4929f32d95681c9cb7.bindPopup(popup_9a18539609f9e8e58497917d0e36742b)
+        ;
+
+        
+    
+    
+            var marker_acab8d9f25c362411ae04c8c0e072d66 = L.marker(
+                [-37.0589478, 174.9414297],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_07cdacdb8e36a3ba3bc8c48789c8b5ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acab8d9f25c362411ae04c8c0e072d66.setIcon(icon_07cdacdb8e36a3ba3bc8c48789c8b5ba);
+        
+    
+        var popup_82d886323459ccb528a9854603ae84a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_343ccdd489a6723d58f5ee4ee5a7a429 = $(`<div id="html_343ccdd489a6723d58f5ee4ee5a7a429" style="width: 100.0%; height: 100.0%;">Woolworths Roselands</div>`)[0];
+                popup_82d886323459ccb528a9854603ae84a6.setContent(html_343ccdd489a6723d58f5ee4ee5a7a429);
+            
+        
+
+        marker_acab8d9f25c362411ae04c8c0e072d66.bindPopup(popup_82d886323459ccb528a9854603ae84a6)
+        ;
+
+        
+    
+    
+            var marker_20fcd39c0c646990c971b9b43e8bc870 = L.marker(
+                [-36.87888192, 174.8548393],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3567e3c81fb020edbded0990ef9e5d7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_20fcd39c0c646990c971b9b43e8bc870.setIcon(icon_3567e3c81fb020edbded0990ef9e5d7d);
+        
+    
+        var popup_a7e4447338c96665685f99053dbae149 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4afd9142b1c0932ac3d696c394737de = $(`<div id="html_d4afd9142b1c0932ac3d696c394737de" style="width: 100.0%; height: 100.0%;">Woolworths St Johns</div>`)[0];
+                popup_a7e4447338c96665685f99053dbae149.setContent(html_d4afd9142b1c0932ac3d696c394737de);
+            
+        
+
+        marker_20fcd39c0c646990c971b9b43e8bc870.bindPopup(popup_a7e4447338c96665685f99053dbae149)
+        ;
+
+        
+    
+    
+            var marker_f728d2d01b36f62ba4d15d656782d037 = L.marker(
+                [-36.88336862, 174.7347459],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_73c3548ed82a03606d46051bcbb12289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f728d2d01b36f62ba4d15d656782d037.setIcon(icon_73c3548ed82a03606d46051bcbb12289);
+        
+    
+        var popup_d345317b26e63c4b28ddda05b4bbe86d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0a386f1411e5bd68b6a7e9485a1c21f = $(`<div id="html_b0a386f1411e5bd68b6a7e9485a1c21f" style="width: 100.0%; height: 100.0%;">Woolworths St Lukes</div>`)[0];
+                popup_d345317b26e63c4b28ddda05b4bbe86d.setContent(html_b0a386f1411e5bd68b6a7e9485a1c21f);
+            
+        
+
+        marker_f728d2d01b36f62ba4d15d656782d037.bindPopup(popup_d345317b26e63c4b28ddda05b4bbe86d)
+        ;
+
+        
+    
+    
+            var marker_d2c563ec848c50664dae3925e2c7c038 = L.marker(
+                [-36.75907026, 174.7406941],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_639904fecdf54f3e6783f58fced03e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2c563ec848c50664dae3925e2c7c038.setIcon(icon_639904fecdf54f3e6783f58fced03e45);
+        
+    
+        var popup_1bf0ae2756fbe8576ca5f3a49303b42f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94d9ab7ab2ab8d588b01efde5a040d2d = $(`<div id="html_94d9ab7ab2ab8d588b01efde5a040d2d" style="width: 100.0%; height: 100.0%;">Woolworths Sunnynook</div>`)[0];
+                popup_1bf0ae2756fbe8576ca5f3a49303b42f.setContent(html_94d9ab7ab2ab8d588b01efde5a040d2d);
+            
+        
+
+        marker_d2c563ec848c50664dae3925e2c7c038.bindPopup(popup_1bf0ae2756fbe8576ca5f3a49303b42f)
+        ;
+
+        
+    
+    
+            var marker_238b557b51d5e723ab3b0b86b0cb2069 = L.marker(
+                [-37.04764284, 174.9279243],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_1c2a63a2246d29b0810e103e4b3dacc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_238b557b51d5e723ab3b0b86b0cb2069.setIcon(icon_1c2a63a2246d29b0810e103e4b3dacc5);
+        
+    
+        var popup_7598a7fc576f82d354bc7c5ceeecc3c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a608abe81789f98252daaaa7bdc7732e = $(`<div id="html_a608abe81789f98252daaaa7bdc7732e" style="width: 100.0%; height: 100.0%;">Woolworths Takanini</div>`)[0];
+                popup_7598a7fc576f82d354bc7c5ceeecc3c9.setContent(html_a608abe81789f98252daaaa7bdc7732e);
+            
+        
+
+        marker_238b557b51d5e723ab3b0b86b0cb2069.bindPopup(popup_7598a7fc576f82d354bc7c5ceeecc3c9)
+        ;
+
+        
+    
+    
+            var marker_00876275e51c1d36737b50afb09ed59a = L.marker(
+                [-36.79125414, 174.7662056],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_2e8d5f38af053753c9cb84f0c9e2c69c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00876275e51c1d36737b50afb09ed59a.setIcon(icon_2e8d5f38af053753c9cb84f0c9e2c69c);
+        
+    
+        var popup_8918b577342cc441ab88e85e5552c77d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce9afba99d3627831af0fc8d0f8807f9 = $(`<div id="html_ce9afba99d3627831af0fc8d0f8807f9" style="width: 100.0%; height: 100.0%;">Woolworths Takapuna</div>`)[0];
+                popup_8918b577342cc441ab88e85e5552c77d.setContent(html_ce9afba99d3627831af0fc8d0f8807f9);
+            
+        
+
+        marker_00876275e51c1d36737b50afb09ed59a.bindPopup(popup_8918b577342cc441ab88e85e5552c77d)
+        ;
+
+        
+    
+    
+            var marker_7b332c6da0e2a917b06f55e73a078827 = L.marker(
+                [-36.84209292, 174.6542381],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d21214ffd6ebef1d3d977a069914c994 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b332c6da0e2a917b06f55e73a078827.setIcon(icon_d21214ffd6ebef1d3d977a069914c994);
+        
+    
+        var popup_c18a4a98c7b3b6ac33028cc9d093fcbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2669829aef2f7206f30fb59511afec67 = $(`<div id="html_2669829aef2f7206f30fb59511afec67" style="width: 100.0%; height: 100.0%;">Woolworths Te Atatu North</div>`)[0];
+                popup_c18a4a98c7b3b6ac33028cc9d093fcbc.setContent(html_2669829aef2f7206f30fb59511afec67);
+            
+        
+
+        marker_7b332c6da0e2a917b06f55e73a078827.bindPopup(popup_c18a4a98c7b3b6ac33028cc9d093fcbc)
+        ;
+
+        
+    
+    
+            var marker_e913d3161fe9849f6344dbc21c2460c7 = L.marker(
+                [-36.86472278, 174.6476292],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d4c67e6da019564379785875d5e03f7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e913d3161fe9849f6344dbc21c2460c7.setIcon(icon_d4c67e6da019564379785875d5e03f7c);
+        
+    
+        var popup_e2527d10d534fa47b5fe9124c093bc25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e28cca55b2049035b1a2ef5205ce1e48 = $(`<div id="html_e28cca55b2049035b1a2ef5205ce1e48" style="width: 100.0%; height: 100.0%;">Woolworths Te Atatu South</div>`)[0];
+                popup_e2527d10d534fa47b5fe9124c093bc25.setContent(html_e28cca55b2049035b1a2ef5205ce1e48);
+            
+        
+
+        marker_e913d3161fe9849f6344dbc21c2460c7.bindPopup(popup_e2527d10d534fa47b5fe9124c093bc25)
+        ;
+
+        
+    
+    
+            var marker_814a1febabec8ea45af2d290a85edba1 = L.marker(
+                [-36.90796057, 174.7559072],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_ba0d90574d78327a81837cff8a90fcea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_814a1febabec8ea45af2d290a85edba1.setIcon(icon_ba0d90574d78327a81837cff8a90fcea);
+        
+    
+        var popup_cca1d9f92577156eb435ae15c1fcf841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20ea785164fff26e7c6db4ef13db91ca = $(`<div id="html_20ea785164fff26e7c6db4ef13db91ca" style="width: 100.0%; height: 100.0%;">Woolworths Three Kings</div>`)[0];
+                popup_cca1d9f92577156eb435ae15c1fcf841.setContent(html_20ea785164fff26e7c6db4ef13db91ca);
+            
+        
+
+        marker_814a1febabec8ea45af2d290a85edba1.bindPopup(popup_cca1d9f92577156eb435ae15c1fcf841)
+        ;
+
+        
+    
+    
+            var marker_bc10629b28a31754cb5015dcf4802576 = L.marker(
+                [-37.03553485, 174.9078539],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_88defcc3ef454e8be3a212bdc27aa83a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc10629b28a31754cb5015dcf4802576.setIcon(icon_88defcc3ef454e8be3a212bdc27aa83a);
+        
+    
+        var popup_abaabeda61f9b93b363b9ca8de11774e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a12f24f8967d07d370b605007424e24 = $(`<div id="html_1a12f24f8967d07d370b605007424e24" style="width: 100.0%; height: 100.0%;">Woolworths Waiata Shores</div>`)[0];
+                popup_abaabeda61f9b93b363b9ca8de11774e.setContent(html_1a12f24f8967d07d370b605007424e24);
+            
+        
+
+        marker_bc10629b28a31754cb5015dcf4802576.bindPopup(popup_abaabeda61f9b93b363b9ca8de11774e)
+        ;
+
+        
+    
+    
+            var marker_bf27a41b2295d6b90c8d0cf7f0bd6fbe = L.marker(
+                [-36.82092949, 174.6146464],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_ae38077f63bcc7182de54f54f3682314 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf27a41b2295d6b90c8d0cf7f0bd6fbe.setIcon(icon_ae38077f63bcc7182de54f54f3682314);
+        
+    
+        var popup_4cbd8fdcf62e51f5f7a4711eeca77e64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28c4560fcf108f0ab1f869f96946284 = $(`<div id="html_b28c4560fcf108f0ab1f869f96946284" style="width: 100.0%; height: 100.0%;">Woolworths Westgate</div>`)[0];
+                popup_4cbd8fdcf62e51f5f7a4711eeca77e64.setContent(html_b28c4560fcf108f0ab1f869f96946284);
+            
+        
+
+        marker_bf27a41b2295d6b90c8d0cf7f0bd6fbe.bindPopup(popup_4cbd8fdcf62e51f5f7a4711eeca77e64)
+        ;
+
+        
+    
+    
+            var marker_ccc31b9cffbff921f413653750ef4f3c = L.marker(
+                [-36.94904179, 174.8080123],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_ab12a209346f9df918b7562e339f0385 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccc31b9cffbff921f413653750ef4f3c.setIcon(icon_ab12a209346f9df918b7562e339f0385);
+        
+    
+        var popup_bef25a7c036fda327c2df854bf6b2b81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee24639658442ff84b0ddcd70ee6d6c8 = $(`<div id="html_ee24639658442ff84b0ddcd70ee6d6c8" style="width: 100.0%; height: 100.0%;">Distribution Centre Auckland</div>`)[0];
+                popup_bef25a7c036fda327c2df854bf6b2b81.setContent(html_ee24639658442ff84b0ddcd70ee6d6c8);
+            
+        
+
+        marker_ccc31b9cffbff921f413653750ef4f3c.bindPopup(popup_bef25a7c036fda327c2df854bf6b2b81)
+        ;
+
+        
+    
+    
+            var marker_b0d8d1d783c8006540192c67011915b2 = L.marker(
+                [-36.89276172, 174.7797646],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_94f28873d9c3a550787e8fcfc0fe9e9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0d8d1d783c8006540192c67011915b2.setIcon(icon_94f28873d9c3a550787e8fcfc0fe9e9e);
+        
+    
+        var popup_08b61650343b98c6536fd9e0a08046ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cac92710fd3a1f22c579e13e8e52fd54 = $(`<div id="html_cac92710fd3a1f22c579e13e8e52fd54" style="width: 100.0%; height: 100.0%;">FreshChoice Epsom</div>`)[0];
+                popup_08b61650343b98c6536fd9e0a08046ac.setContent(html_cac92710fd3a1f22c579e13e8e52fd54);
+            
+        
+
+        marker_b0d8d1d783c8006540192c67011915b2.bindPopup(popup_08b61650343b98c6536fd9e0a08046ac)
+        ;
+
+        
+    
+    
+            var marker_a124d992a38a437ee18bc6a21439abc1 = L.marker(
+                [-36.97676671, 174.8972267],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_26cc6901dd8fcbe4f283b9b6356ef29a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a124d992a38a437ee18bc6a21439abc1.setIcon(icon_26cc6901dd8fcbe4f283b9b6356ef29a);
+        
+    
+        var popup_9cfac1550fc9dead031863ce89c99100 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba80eebe112d3828258e99ffef79b7e4 = $(`<div id="html_ba80eebe112d3828258e99ffef79b7e4" style="width: 100.0%; height: 100.0%;">FreshChoice Flat Bush</div>`)[0];
+                popup_9cfac1550fc9dead031863ce89c99100.setContent(html_ba80eebe112d3828258e99ffef79b7e4);
+            
+        
+
+        marker_a124d992a38a437ee18bc6a21439abc1.bindPopup(popup_9cfac1550fc9dead031863ce89c99100)
+        ;
+
+        
+    
+    
+            var marker_a2269ddbb21f7611e14222538589b96f = L.marker(
+                [-36.91087436, 174.6545496],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d5dbf45b91a153a6cad5e6bbf350110a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a2269ddbb21f7611e14222538589b96f.setIcon(icon_d5dbf45b91a153a6cad5e6bbf350110a);
+        
+    
+        var popup_251a3ad1a29a192ab27bec3535489b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64c4e04e57ce7fd53a42f20a8f44ac1c = $(`<div id="html_64c4e04e57ce7fd53a42f20a8f44ac1c" style="width: 100.0%; height: 100.0%;">FreshChoice Glen Eden</div>`)[0];
+                popup_251a3ad1a29a192ab27bec3535489b3b.setContent(html_64c4e04e57ce7fd53a42f20a8f44ac1c);
+            
+        
+
+        marker_a2269ddbb21f7611e14222538589b96f.bindPopup(popup_251a3ad1a29a192ab27bec3535489b3b)
+        ;
+
+        
+    
+    
+            var marker_18cead0215f6159bb079ad256cbb9ed7 = L.marker(
+                [-36.88106607, 174.9002827],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f499b9bdf518c451e68e5f89066d7bc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18cead0215f6159bb079ad256cbb9ed7.setIcon(icon_f499b9bdf518c451e68e5f89066d7bc8);
+        
+    
+        var popup_67d3274b5784a4f061e9875d4fe616b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_943e92d79377740eccf94939105309cc = $(`<div id="html_943e92d79377740eccf94939105309cc" style="width: 100.0%; height: 100.0%;">FreshChoice Half Moon Bay</div>`)[0];
+                popup_67d3274b5784a4f061e9875d4fe616b4.setContent(html_943e92d79377740eccf94939105309cc);
+            
+        
+
+        marker_18cead0215f6159bb079ad256cbb9ed7.bindPopup(popup_67d3274b5784a4f061e9875d4fe616b4)
+        ;
+
+        
+    
+    
+            var marker_25f91454595dd4ff22b29d2d6b949703 = L.marker(
+                [-36.94250829, 174.7869875],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_b97d2d9f867c50629af005891442a76b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25f91454595dd4ff22b29d2d6b949703.setIcon(icon_b97d2d9f867c50629af005891442a76b);
+        
+    
+        var popup_248fca1e049d6fcccedacd1df878d304 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4da4a6760712d284119576e86aeac5f = $(`<div id="html_e4da4a6760712d284119576e86aeac5f" style="width: 100.0%; height: 100.0%;">FreshChoice Mangere Bridge</div>`)[0];
+                popup_248fca1e049d6fcccedacd1df878d304.setContent(html_e4da4a6760712d284119576e86aeac5f);
+            
+        
+
+        marker_25f91454595dd4ff22b29d2d6b949703.bindPopup(popup_248fca1e049d6fcccedacd1df878d304)
+        ;
+
+        
+    
+    
+            var marker_57625c81202e8bbde0be58c02fd38117 = L.marker(
+                [-36.94480584, 174.8431184],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3896bd777e4a05dd6a9ab3377ae68037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57625c81202e8bbde0be58c02fd38117.setIcon(icon_3896bd777e4a05dd6a9ab3377ae68037);
+        
+    
+        var popup_e3bb8acc1a35c2b89633b1c0c576508e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_540f5aeac2570e4c11d97859b908d929 = $(`<div id="html_540f5aeac2570e4c11d97859b908d929" style="width: 100.0%; height: 100.0%;">FreshChoice Otahuhu</div>`)[0];
+                popup_e3bb8acc1a35c2b89633b1c0c576508e.setContent(html_540f5aeac2570e4c11d97859b908d929);
+            
+        
+
+        marker_57625c81202e8bbde0be58c02fd38117.bindPopup(popup_e3bb8acc1a35c2b89633b1c0c576508e)
+        ;
+
+        
+    
+    
+            var marker_968f95c5db737ef19f38786d0694626f = L.marker(
+                [-36.88287566, 174.6161793],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_30183f6468c3d3a67bc21e886bc9dce2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_968f95c5db737ef19f38786d0694626f.setIcon(icon_30183f6468c3d3a67bc21e886bc9dce2);
+        
+    
+        var popup_7ec537bb2a7cc848e5b820d4650e7f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0b9f644fc15ce5d6d0d29aed34ed2c5 = $(`<div id="html_c0b9f644fc15ce5d6d0d29aed34ed2c5" style="width: 100.0%; height: 100.0%;">FreshChoice Palomino</div>`)[0];
+                popup_7ec537bb2a7cc848e5b820d4650e7f81.setContent(html_c0b9f644fc15ce5d6d0d29aed34ed2c5);
+            
+        
+
+        marker_968f95c5db737ef19f38786d0694626f.bindPopup(popup_7ec537bb2a7cc848e5b820d4650e7f81)
+        ;
+
+        
+    
+    
+            var marker_959c6f9f98233440408949526b74ddc2 = L.marker(
+                [-37.06606311, 174.9556975],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3e8ef79349e853566614c9d3865c7942 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_959c6f9f98233440408949526b74ddc2.setIcon(icon_3e8ef79349e853566614c9d3865c7942);
+        
+    
+        var popup_df54d3d6064401f1b6043b306a38442a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d82f4d61cbfcc47848166df0f0d3dbd3 = $(`<div id="html_d82f4d61cbfcc47848166df0f0d3dbd3" style="width: 100.0%; height: 100.0%;">FreshChoice Papakura</div>`)[0];
+                popup_df54d3d6064401f1b6043b306a38442a.setContent(html_d82f4d61cbfcc47848166df0f0d3dbd3);
+            
+        
+
+        marker_959c6f9f98233440408949526b74ddc2.bindPopup(popup_df54d3d6064401f1b6043b306a38442a)
+        ;
+
+        
+    
+    
+            var marker_418e5c4b74c7a96bf41bd640244dfde2 = L.marker(
+                [-36.86353948, 174.6015834],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f7d77f3b462e45ff2426b25b2ca3d124 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_418e5c4b74c7a96bf41bd640244dfde2.setIcon(icon_f7d77f3b462e45ff2426b25b2ca3d124);
+        
+    
+        var popup_6562bc58aeb380787b9b6b12f1d82db1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2442e285eb9b21711f549029e2b1adf3 = $(`<div id="html_2442e285eb9b21711f549029e2b1adf3" style="width: 100.0%; height: 100.0%;">FreshChoice Ranui</div>`)[0];
+                popup_6562bc58aeb380787b9b6b12f1d82db1.setContent(html_2442e285eb9b21711f549029e2b1adf3);
+            
+        
+
+        marker_418e5c4b74c7a96bf41bd640244dfde2.bindPopup(popup_6562bc58aeb380787b9b6b12f1d82db1)
+        ;
+
+        
+    
+    
+            var marker_d65a833e815ba5b1b67cee4b285aa044 = L.marker(
+                [-36.93739048, 174.6572984],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_e4c022512d9af2df05cb3cf1c54cd09c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d65a833e815ba5b1b67cee4b285aa044.setIcon(icon_e4c022512d9af2df05cb3cf1c54cd09c);
+        
+    
+        var popup_254550e5a3bee98ba0850adac088daeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e15874475c77ab79e4a885c4ad1931d1 = $(`<div id="html_e15874475c77ab79e4a885c4ad1931d1" style="width: 100.0%; height: 100.0%;">FreshChoice Titirangi</div>`)[0];
+                popup_254550e5a3bee98ba0850adac088daeb.setContent(html_e15874475c77ab79e4a885c4ad1931d1);
+            
+        
+
+        marker_d65a833e815ba5b1b67cee4b285aa044.bindPopup(popup_254550e5a3bee98ba0850adac088daeb)
+        ;
+
+        
+    
+    
+            var marker_b92e3e382706a0de439b3ea2beff03bf = L.marker(
+                [-36.84350157, 174.7658662],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_4eb3cde2caab4c3e686745f95d72690d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b92e3e382706a0de439b3ea2beff03bf.setIcon(icon_4eb3cde2caab4c3e686745f95d72690d);
+        
+    
+        var popup_318cb5cbb3985a1b555d8bdad2b86bdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_338509e173d7ede087c744d6cc6aacb7 = $(`<div id="html_338509e173d7ede087c744d6cc6aacb7" style="width: 100.0%; height: 100.0%;">Metro Albert Street</div>`)[0];
+                popup_318cb5cbb3985a1b555d8bdad2b86bdd.setContent(html_338509e173d7ede087c744d6cc6aacb7);
+            
+        
+
+        marker_b92e3e382706a0de439b3ea2beff03bf.bindPopup(popup_318cb5cbb3985a1b555d8bdad2b86bdd)
+        ;
+
+        
+    
+    
+            var marker_a6f0d2749003245a9782388dab2ab20c = L.marker(
+                [-36.84358106, 174.7578066],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8eb9224f9451013999c60a9b46ed5e2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a6f0d2749003245a9782388dab2ab20c.setIcon(icon_8eb9224f9451013999c60a9b46ed5e2a);
+        
+    
+        var popup_f9cd6ac5a7d5297144b8dbfefa2f9993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deb6c84250eddc9f707e3149cca8b490 = $(`<div id="html_deb6c84250eddc9f707e3149cca8b490" style="width: 100.0%; height: 100.0%;">Metro Halsey Street</div>`)[0];
+                popup_f9cd6ac5a7d5297144b8dbfefa2f9993.setContent(html_deb6c84250eddc9f707e3149cca8b490);
+            
+        
+
+        marker_a6f0d2749003245a9782388dab2ab20c.bindPopup(popup_f9cd6ac5a7d5297144b8dbfefa2f9993)
+        ;
+
+        
+    
+    
+            var marker_07cd06546ffa84be0e198f2e71bd526b = L.marker(
+                [-36.84651051, 174.7334683],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_4845a8a407aaa9c5827f48976c2b251f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07cd06546ffa84be0e198f2e71bd526b.setIcon(icon_4845a8a407aaa9c5827f48976c2b251f);
+        
+    
+        var popup_6504a07b62d9841bf4076e21829498e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33201d78d86a516ab3fcfb4378845690 = $(`<div id="html_33201d78d86a516ab3fcfb4378845690" style="width: 100.0%; height: 100.0%;">Metro Herne Bay</div>`)[0];
+                popup_6504a07b62d9841bf4076e21829498e2.setContent(html_33201d78d86a516ab3fcfb4378845690);
+            
+        
+
+        marker_07cd06546ffa84be0e198f2e71bd526b.bindPopup(popup_6504a07b62d9841bf4076e21829498e2)
+        ;
+
+        
+    
+    
+            var marker_8def91578ff37be2f65731c2eaa4d307 = L.marker(
+                [-36.89776863, 174.69741],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_836e15cf8b5a86949717154cabe2ed8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8def91578ff37be2f65731c2eaa4d307.setIcon(icon_836e15cf8b5a86949717154cabe2ed8f);
+        
+    
+        var popup_2560b47484d6023f89085dd3d0696ef1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0728b170d4e291888f504e669a4201c = $(`<div id="html_c0728b170d4e291888f504e669a4201c" style="width: 100.0%; height: 100.0%;">SuperValue Avondale</div>`)[0];
+                popup_2560b47484d6023f89085dd3d0696ef1.setContent(html_c0728b170d4e291888f504e669a4201c);
+            
+        
+
+        marker_8def91578ff37be2f65731c2eaa4d307.bindPopup(popup_2560b47484d6023f89085dd3d0696ef1)
+        ;
+
+        
+    
+    
+            var marker_ecc02125a7cab5c6f5d563d40a3e5177 = L.marker(
+                [-36.99736985, 174.7888823],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_fab39093e2da976677d7bd0ad2a9504e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ecc02125a7cab5c6f5d563d40a3e5177.setIcon(icon_fab39093e2da976677d7bd0ad2a9504e);
+        
+    
+        var popup_c9b1ca58c6f7ec2fc325a951d786dff3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04e79bef286c500ee277e83ab653fc49 = $(`<div id="html_04e79bef286c500ee277e83ab653fc49" style="width: 100.0%; height: 100.0%;">Woolworths Airport</div>`)[0];
+                popup_c9b1ca58c6f7ec2fc325a951d786dff3.setContent(html_04e79bef286c500ee277e83ab653fc49);
+            
+        
+
+        marker_ecc02125a7cab5c6f5d563d40a3e5177.bindPopup(popup_c9b1ca58c6f7ec2fc325a951d786dff3)
+        ;
+
+        
+    
+    
+            var marker_5668e8d38eaeb83901ba40afabb01391 = L.marker(
+                [-36.84496186, 174.7731192],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_e05e67249916da35024706e49f1f401e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5668e8d38eaeb83901ba40afabb01391.setIcon(icon_e05e67249916da35024706e49f1f401e);
+        
+    
+        var popup_4e6b7518d80c46a8dbb32ecb68bd77ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_400aa4a29783e22d1b3f3e512e284ab9 = $(`<div id="html_400aa4a29783e22d1b3f3e512e284ab9" style="width: 100.0%; height: 100.0%;">Woolworths Auckland City</div>`)[0];
+                popup_4e6b7518d80c46a8dbb32ecb68bd77ac.setContent(html_400aa4a29783e22d1b3f3e512e284ab9);
+            
+        
+
+        marker_5668e8d38eaeb83901ba40afabb01391.bindPopup(popup_4e6b7518d80c46a8dbb32ecb68bd77ac)
+        ;
+
+        
+    
+    
+            var marker_cc0a049bad76f196f601dbf2b161ede6 = L.marker(
+                [-36.84853355, 174.7648512],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_e221133fd50576d852db7b4e485b5d10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc0a049bad76f196f601dbf2b161ede6.setIcon(icon_e221133fd50576d852db7b4e485b5d10);
+        
+    
+        var popup_8c0e6c207ff6622076b146ccce602ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_896419eef844980d1d70659c3e80bc2c = $(`<div id="html_896419eef844980d1d70659c3e80bc2c" style="width: 100.0%; height: 100.0%;">Woolworths Auckland Victoria Street West</div>`)[0];
+                popup_8c0e6c207ff6622076b146ccce602ab3.setContent(html_896419eef844980d1d70659c3e80bc2c);
+            
+        
+
+        marker_cc0a049bad76f196f601dbf2b161ede6.bindPopup(popup_8c0e6c207ff6622076b146ccce602ab3)
+        ;
+
+        
+    
+    
+            var marker_9e9ff44c69f60753a7f797dbcdf0560a = L.marker(
+                [-36.81111802, 174.7248776],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_85f0d42952a7746b6694d10ef82354b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e9ff44c69f60753a7f797dbcdf0560a.setIcon(icon_85f0d42952a7746b6694d10ef82354b6);
+        
+    
+        var popup_f95febf92a920ea69e75c81e8d3e98ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7898963653d1a1986067ccdedc7ed08d = $(`<div id="html_7898963653d1a1986067ccdedc7ed08d" style="width: 100.0%; height: 100.0%;">Woolworths Birkenhead</div>`)[0];
+                popup_f95febf92a920ea69e75c81e8d3e98ce.setContent(html_7898963653d1a1986067ccdedc7ed08d);
+            
+        
+
+        marker_9e9ff44c69f60753a7f797dbcdf0560a.bindPopup(popup_f95febf92a920ea69e75c81e8d3e98ce)
+        ;
+
+        
+    
+    
+            var marker_032c1380e82db745a918cd743805ad9c = L.marker(
+                [-36.92291876, 174.7023521],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f4e3f85818cc3e8bd4d7169b374ec5f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_032c1380e82db745a918cd743805ad9c.setIcon(icon_f4e3f85818cc3e8bd4d7169b374ec5f1);
+        
+    
+        var popup_ff3939b6b70f4debe6457a119e3d2650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_932e1ac8ab6ea9dd75e6c57232955d70 = $(`<div id="html_932e1ac8ab6ea9dd75e6c57232955d70" style="width: 100.0%; height: 100.0%;">Woolworths Blockhouse Bay</div>`)[0];
+                popup_ff3939b6b70f4debe6457a119e3d2650.setContent(html_932e1ac8ab6ea9dd75e6c57232955d70);
+            
+        
+
+        marker_032c1380e82db745a918cd743805ad9c.bindPopup(popup_ff3939b6b70f4debe6457a119e3d2650)
+        ;
+
+        
+    
+    
+            var marker_aaadfc87d48e97e45b79d4d0407946d7 = L.marker(
+                [-36.92972626, 174.9110718],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_48280a5909e4544b0acf28ba5a50b179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aaadfc87d48e97e45b79d4d0407946d7.setIcon(icon_48280a5909e4544b0acf28ba5a50b179);
+        
+    
+        var popup_991703896406d453d6ce5453af64fd5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_195e5a81db6c2e10b0c22a330c9d7149 = $(`<div id="html_195e5a81db6c2e10b0c22a330c9d7149" style="width: 100.0%; height: 100.0%;">Woolworths Botany Downs</div>`)[0];
+                popup_991703896406d453d6ce5453af64fd5b.setContent(html_195e5a81db6c2e10b0c22a330c9d7149);
+            
+        
+
+        marker_aaadfc87d48e97e45b79d4d0407946d7.bindPopup(popup_991703896406d453d6ce5453af64fd5b)
+        ;
+
+        
+    
+    
+            var marker_961e2bb006d738bfefe89d0f2eaaa180 = L.marker(
+                [-36.71714479, 174.7472772],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_eaa4a91868935b542ef2ed6a8358425c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_961e2bb006d738bfefe89d0f2eaaa180.setIcon(icon_eaa4a91868935b542ef2ed6a8358425c);
+        
+    
+        var popup_f7f4892a6db3319b071b6b12cf62156e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_850683dcc448a37d5ac940f8566f4a12 = $(`<div id="html_850683dcc448a37d5ac940f8566f4a12" style="width: 100.0%; height: 100.0%;">Woolworths Browns Bay</div>`)[0];
+                popup_f7f4892a6db3319b071b6b12cf62156e.setContent(html_850683dcc448a37d5ac940f8566f4a12);
+            
+        
+
+        marker_961e2bb006d738bfefe89d0f2eaaa180.bindPopup(popup_f7f4892a6db3319b071b6b12cf62156e)
+        ;
+
+        
+    
+    
+            var marker_3284fe08d3f19613bd8a640f450ba30e = L.marker(
+                [-36.78148813, 174.7234262],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_63f3850002147b637904a6fa132c6579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3284fe08d3f19613bd8a640f450ba30e.setIcon(icon_63f3850002147b637904a6fa132c6579);
+        
+    
+        var popup_3a1aa4953960f6384e9ffe1a5ebd61e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24bd3f0795fcd1655a66be93c8f2afaf = $(`<div id="html_24bd3f0795fcd1655a66be93c8f2afaf" style="width: 100.0%; height: 100.0%;">Woolworths Glenfield</div>`)[0];
+                popup_3a1aa4953960f6384e9ffe1a5ebd61e2.setContent(html_24bd3f0795fcd1655a66be93c8f2afaf);
+            
+        
+
+        marker_3284fe08d3f19613bd8a640f450ba30e.bindPopup(popup_3a1aa4953960f6384e9ffe1a5ebd61e2)
+        ;
+
+        
+    
+    
+            var marker_ceec3d8b2c2cb619e03cf1f6f64e05eb = L.marker(
+                [-36.88916156, 174.7935037],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_494cb910e54002ef589ebabbc32cd664 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ceec3d8b2c2cb619e03cf1f6f64e05eb.setIcon(icon_494cb910e54002ef589ebabbc32cd664);
+        
+    
+        var popup_d7eb9029f62aeee43575e288066f8b45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fba20bc914c211c832c6fb1f851edd49 = $(`<div id="html_fba20bc914c211c832c6fb1f851edd49" style="width: 100.0%; height: 100.0%;">Woolworths Greenlane</div>`)[0];
+                popup_d7eb9029f62aeee43575e288066f8b45.setContent(html_fba20bc914c211c832c6fb1f851edd49);
+            
+        
+
+        marker_ceec3d8b2c2cb619e03cf1f6f64e05eb.bindPopup(popup_d7eb9029f62aeee43575e288066f8b45)
+        ;
+
+        
+    
+    
+            var marker_6917a5df35445c13a304328a3af41dc0 = L.marker(
+                [-36.73170033, 174.7209467],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_065fb6654a440dc08c476e71237665d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6917a5df35445c13a304328a3af41dc0.setIcon(icon_065fb6654a440dc08c476e71237665d6);
+        
+    
+        var popup_b92ae24a29e1e8b4ba71c766f5ed3677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c1fca73dcb4fc50b56cbc992bb54d16 = $(`<div id="html_8c1fca73dcb4fc50b56cbc992bb54d16" style="width: 100.0%; height: 100.0%;">Woolworths Greville Road</div>`)[0];
+                popup_b92ae24a29e1e8b4ba71c766f5ed3677.setContent(html_8c1fca73dcb4fc50b56cbc992bb54d16);
+            
+        
+
+        marker_6917a5df35445c13a304328a3af41dc0.bindPopup(popup_b92ae24a29e1e8b4ba71c766f5ed3677)
+        ;
+
+        
+    
+    
+            var marker_10fd31e0e785325246920e9aa7ba0dd6 = L.marker(
+                [-36.85416528, 174.7317139],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d744c6f5801fac85fb1478a83e13b780 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_10fd31e0e785325246920e9aa7ba0dd6.setIcon(icon_d744c6f5801fac85fb1478a83e13b780);
+        
+    
+        var popup_327d7f9a001b4ba05221a353be528de8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f44da35241df5c9c7d6e9bf0b048843a = $(`<div id="html_f44da35241df5c9c7d6e9bf0b048843a" style="width: 100.0%; height: 100.0%;">Woolworths Grey Lynn</div>`)[0];
+                popup_327d7f9a001b4ba05221a353be528de8.setContent(html_f44da35241df5c9c7d6e9bf0b048843a);
+            
+        
+
+        marker_10fd31e0e785325246920e9aa7ba0dd6.bindPopup(popup_327d7f9a001b4ba05221a353be528de8)
+        ;
+
+        
+    
+    
+            var marker_d3ccd199638e1e5f341b0bd499451453 = L.marker(
+                [-36.79667981, 174.7781249],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_994b3d6c77b1b2246f57c7c5b77c5791 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d3ccd199638e1e5f341b0bd499451453.setIcon(icon_994b3d6c77b1b2246f57c7c5b77c5791);
+        
+    
+        var popup_c96117c46f3b3d231659717484ea63b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fa4b5b2ae71a814e1d55351f66b0366 = $(`<div id="html_7fa4b5b2ae71a814e1d55351f66b0366" style="width: 100.0%; height: 100.0%;">Woolworths Hauraki Corner</div>`)[0];
+                popup_c96117c46f3b3d231659717484ea63b5.setContent(html_7fa4b5b2ae71a814e1d55351f66b0366);
+            
+        
+
+        marker_d3ccd199638e1e5f341b0bd499451453.bindPopup(popup_c96117c46f3b3d231659717484ea63b5)
+        ;
+
+        
+    
+    
+            var marker_b9b47ef9ef9cb544d04c17fc5025bdfc = L.marker(
+                [-36.88089456, 174.6332277],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_148d243fe397ebd8a6e884c01479b6a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b9b47ef9ef9cb544d04c17fc5025bdfc.setIcon(icon_148d243fe397ebd8a6e884c01479b6a9);
+        
+    
+        var popup_d3fb78982a5543085d4278b71da74eae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7313cbdb9db0f3c17795cea75e6f46e = $(`<div id="html_f7313cbdb9db0f3c17795cea75e6f46e" style="width: 100.0%; height: 100.0%;">Woolworths Henderson</div>`)[0];
+                popup_d3fb78982a5543085d4278b71da74eae.setContent(html_f7313cbdb9db0f3c17795cea75e6f46e);
+            
+        
+
+        marker_b9b47ef9ef9cb544d04c17fc5025bdfc.bindPopup(popup_d3fb78982a5543085d4278b71da74eae)
+        ;
+
+        
+    
+    
+            var marker_63ed3c0fc65befab537086e1c4beb8c7 = L.marker(
+                [-36.89933061, 174.9084309],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_7c41cca33b1b3e0cbcbbfc46425750dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63ed3c0fc65befab537086e1c4beb8c7.setIcon(icon_7c41cca33b1b3e0cbcbbfc46425750dd);
+        
+    
+        var popup_8954816193b2a631e0fefc614024c136 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9efa2d0a612d79b1545169a401678779 = $(`<div id="html_9efa2d0a612d79b1545169a401678779" style="width: 100.0%; height: 100.0%;">Woolworths Highland Park</div>`)[0];
+                popup_8954816193b2a631e0fefc614024c136.setContent(html_9efa2d0a612d79b1545169a401678779);
+            
+        
+
+        marker_63ed3c0fc65befab537086e1c4beb8c7.bindPopup(popup_8954816193b2a631e0fefc614024c136)
+        ;
+
+        
+    
+    
+            var marker_2825ea7108ba29e1caefd82d2e141622 = L.marker(
+                [-36.79748845, 174.6487257],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_5881d4f5d64c838c70ef9cbf333473d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2825ea7108ba29e1caefd82d2e141622.setIcon(icon_5881d4f5d64c838c70ef9cbf333473d4);
+        
+    
+        var popup_6ecc79ce816541dad3c0f5434d5f0e1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be5b07a484a189d1b8823031273f9a96 = $(`<div id="html_be5b07a484a189d1b8823031273f9a96" style="width: 100.0%; height: 100.0%;">Woolworths Hobsonville</div>`)[0];
+                popup_6ecc79ce816541dad3c0f5434d5f0e1d.setContent(html_be5b07a484a189d1b8823031273f9a96);
+            
+        
+
+        marker_2825ea7108ba29e1caefd82d2e141622.bindPopup(popup_6ecc79ce816541dad3c0f5434d5f0e1d)
+        ;
+
+        
+    
+    
+            var marker_9bf8ef1bc8be3b408010f9d044f229a7 = L.marker(
+                [-36.89585201, 174.9335377],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_732fbacc72cd7f6e7d3008a99ba82068 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9bf8ef1bc8be3b408010f9d044f229a7.setIcon(icon_732fbacc72cd7f6e7d3008a99ba82068);
+        
+    
+        var popup_0d716a06bede9d1d4de0a9974aed7f34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f385b557356f13866443bf74c9b9a12c = $(`<div id="html_f385b557356f13866443bf74c9b9a12c" style="width: 100.0%; height: 100.0%;">Woolworths Howick</div>`)[0];
+                popup_0d716a06bede9d1d4de0a9974aed7f34.setContent(html_f385b557356f13866443bf74c9b9a12c);
+            
+        
+
+        marker_9bf8ef1bc8be3b408010f9d044f229a7.bindPopup(popup_0d716a06bede9d1d4de0a9974aed7f34)
+        ;
+
+        
+    
+    
+            var marker_6b317d079afb909dd34e2c30c361226d = L.marker(
+                [-36.8568778, 174.6325126],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_6f68154a40675b8cade64a90e05dc4f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b317d079afb909dd34e2c30c361226d.setIcon(icon_6f68154a40675b8cade64a90e05dc4f4);
+        
+    
+        var popup_b5660550f8c676dae369cdbd610703de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71fd2b5177f65a10f700ff62f55ddf41 = $(`<div id="html_71fd2b5177f65a10f700ff62f55ddf41" style="width: 100.0%; height: 100.0%;">Woolworths Lincoln Road</div>`)[0];
+                popup_b5660550f8c676dae369cdbd610703de.setContent(html_71fd2b5177f65a10f700ff62f55ddf41);
+            
+        
+
+        marker_6b317d079afb909dd34e2c30c361226d.bindPopup(popup_b5660550f8c676dae369cdbd610703de)
+        ;
+
+        
+    
+    
+            var marker_fb8b0390153f13b7f7fd7978f77e2e23 = L.marker(
+                [-36.90687152, 174.6850146],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_9d836733da5682887007bdb1209edee7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb8b0390153f13b7f7fd7978f77e2e23.setIcon(icon_9d836733da5682887007bdb1209edee7);
+        
+    
+        var popup_d8cc2439b55ac91cf7cde08cc871bb6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99c2968a9d71d912cfc7807ac82d41aa = $(`<div id="html_99c2968a9d71d912cfc7807ac82d41aa" style="width: 100.0%; height: 100.0%;">Woolworths Lynnmall</div>`)[0];
+                popup_d8cc2439b55ac91cf7cde08cc871bb6c.setContent(html_99c2968a9d71d912cfc7807ac82d41aa);
+            
+        
+
+        marker_fb8b0390153f13b7f7fd7978f77e2e23.bindPopup(popup_d8cc2439b55ac91cf7cde08cc871bb6c)
+        ;
+
+        
+    
+    
+            var marker_523a31497b4e626a0d8428dc869ee1b1 = L.marker(
+                [-36.73941255, 174.7540551],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_923109fb34546262a3ff24c5f12df6ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_523a31497b4e626a0d8428dc869ee1b1.setIcon(icon_923109fb34546262a3ff24c5f12df6ea);
+        
+    
+        var popup_8dcdc02df045a77f231ac31031a319ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a026e87e12ce5a5cb1f75bb925c7e2e = $(`<div id="html_3a026e87e12ce5a5cb1f75bb925c7e2e" style="width: 100.0%; height: 100.0%;">Woolworths Mairangi Bay</div>`)[0];
+                popup_8dcdc02df045a77f231ac31031a319ea.setContent(html_3a026e87e12ce5a5cb1f75bb925c7e2e);
+            
+        
+
+        marker_523a31497b4e626a0d8428dc869ee1b1.bindPopup(popup_8dcdc02df045a77f231ac31031a319ea)
+        ;
+
+        
+    
+    
+            var marker_1ec8b7179435873a84a5bb04dd404831 = L.marker(
+                [-36.9657908, 174.825346],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3160aa44aed1ab488e1b2c9dd16c6aaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ec8b7179435873a84a5bb04dd404831.setIcon(icon_3160aa44aed1ab488e1b2c9dd16c6aaf);
+        
+    
+        var popup_5871801bacf9f4f8f3ab5e9038c4f7f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3fdd53f0eef82d1d11881a5e8b16e51 = $(`<div id="html_e3fdd53f0eef82d1d11881a5e8b16e51" style="width: 100.0%; height: 100.0%;">Woolworths Mangere East</div>`)[0];
+                popup_5871801bacf9f4f8f3ab5e9038c4f7f7.setContent(html_e3fdd53f0eef82d1d11881a5e8b16e51);
+            
+        
+
+        marker_1ec8b7179435873a84a5bb04dd404831.bindPopup(popup_5871801bacf9f4f8f3ab5e9038c4f7f7)
+        ;
+
+        
+    
+    
+            var marker_b482187c70c3473221ee168eaf5176af = L.marker(
+                [-36.96987802, 174.8011202],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_2cccb9075092bbbe0af861226801560a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b482187c70c3473221ee168eaf5176af.setIcon(icon_2cccb9075092bbbe0af861226801560a);
+        
+    
+        var popup_89e39b4a039b54e0831ab5d0e34b5b70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ddfb7c3793aeed3acd79cff3ff7dc76 = $(`<div id="html_1ddfb7c3793aeed3acd79cff3ff7dc76" style="width: 100.0%; height: 100.0%;">Woolworths Mangere Mall</div>`)[0];
+                popup_89e39b4a039b54e0831ab5d0e34b5b70.setContent(html_1ddfb7c3793aeed3acd79cff3ff7dc76);
+            
+        
+
+        marker_b482187c70c3473221ee168eaf5176af.bindPopup(popup_89e39b4a039b54e0831ab5d0e34b5b70)
+        ;
+
+        
+    
+    
+            var marker_a0d39444b06d8cfa1b3e3c0738a2904e = L.marker(
+                [-36.98676855, 174.8848148],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_5ab46ee6e17f01bde7921fd632686b4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0d39444b06d8cfa1b3e3c0738a2904e.setIcon(icon_5ab46ee6e17f01bde7921fd632686b4e);
+        
+    
+        var popup_c6eb247208e103e2785cd94b663e0396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f49ea71d3e18b5963dba1851a98cdc5 = $(`<div id="html_4f49ea71d3e18b5963dba1851a98cdc5" style="width: 100.0%; height: 100.0%;">Woolworths Manukau</div>`)[0];
+                popup_c6eb247208e103e2785cd94b663e0396.setContent(html_4f49ea71d3e18b5963dba1851a98cdc5);
+            
+        
+
+        marker_a0d39444b06d8cfa1b3e3c0738a2904e.bindPopup(popup_c6eb247208e103e2785cd94b663e0396)
+        ;
+
+        
+    
+    
+            var marker_93bb4aea047faabb936a54ddf8373357 = L.marker(
+                [-36.99174967, 174.8831931],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d1c5f702bf12a124e39073db0349ea8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_93bb4aea047faabb936a54ddf8373357.setIcon(icon_d1c5f702bf12a124e39073db0349ea8e);
+        
+    
+        var popup_65fbb56c1d480b2ff953c71c2cf5b474 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03633afacab29a38eb717edbd035f033 = $(`<div id="html_03633afacab29a38eb717edbd035f033" style="width: 100.0%; height: 100.0%;">Woolworths Manukau Mall</div>`)[0];
+                popup_65fbb56c1d480b2ff953c71c2cf5b474.setContent(html_03633afacab29a38eb717edbd035f033);
+            
+        
+
+        marker_93bb4aea047faabb936a54ddf8373357.bindPopup(popup_65fbb56c1d480b2ff953c71c2cf5b474)
+        ;
+
+        
+    
+    
+            var marker_bb9b674a52a71ffad64796dc90b24851 = L.marker(
+                [-37.01734442, 174.8651097],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f527046da78576ca7e40796942a112aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb9b674a52a71ffad64796dc90b24851.setIcon(icon_f527046da78576ca7e40796942a112aa);
+        
+    
+        var popup_d53ed2d33624fb994bb7f0e4f3302e0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b80bd65432511c075e79e330c6435e8c = $(`<div id="html_b80bd65432511c075e79e330c6435e8c" style="width: 100.0%; height: 100.0%;">Woolworths Manurewa</div>`)[0];
+                popup_d53ed2d33624fb994bb7f0e4f3302e0c.setContent(html_b80bd65432511c075e79e330c6435e8c);
+            
+        
+
+        marker_bb9b674a52a71ffad64796dc90b24851.bindPopup(popup_d53ed2d33624fb994bb7f0e4f3302e0c)
+        ;
+
+        
+    
+    
+            var marker_b450352cf5035005ebd5ac29f8c158cb = L.marker(
+                [-36.87610706, 174.8289359],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_1a4677a6dea09dfac633a6f5683b093a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b450352cf5035005ebd5ac29f8c158cb.setIcon(icon_1a4677a6dea09dfac633a6f5683b093a);
+        
+    
+        var popup_27a587699cf95d320b223584b11fddf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14797e51a1bc45138b39ee410cc37813 = $(`<div id="html_14797e51a1bc45138b39ee410cc37813" style="width: 100.0%; height: 100.0%;">Woolworths Meadowbank</div>`)[0];
+                popup_27a587699cf95d320b223584b11fddf9.setContent(html_14797e51a1bc45138b39ee410cc37813);
+            
+        
+
+        marker_b450352cf5035005ebd5ac29f8c158cb.bindPopup(popup_27a587699cf95d320b223584b11fddf9)
+        ;
+
+        
+    
+    
+            var marker_90e0fc117d0784c230da9e7df0dd623f = L.marker(
+                [-36.9132518, 174.929465],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_30f829a7ed5da560b7c7b878257110b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90e0fc117d0784c230da9e7df0dd623f.setIcon(icon_30f829a7ed5da560b7c7b878257110b6);
+        
+    
+        var popup_517dff49721ba04701e65ab02824e654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c7f779805b8b3d50543f5376df97c55 = $(`<div id="html_3c7f779805b8b3d50543f5376df97c55" style="width: 100.0%; height: 100.0%;">Woolworths Meadowlands</div>`)[0];
+                popup_517dff49721ba04701e65ab02824e654.setContent(html_3c7f779805b8b3d50543f5376df97c55);
+            
+        
+
+        marker_90e0fc117d0784c230da9e7df0dd623f.bindPopup(popup_517dff49721ba04701e65ab02824e654)
+        ;
+
+        
+    
+    
+            var marker_004ce2405c1bc626d0df3dd5be22e2ef = L.marker(
+                [-36.77197217, 174.7666177],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_3f0ca5cda5d3d63bc3f0bc7a8b574111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_004ce2405c1bc626d0df3dd5be22e2ef.setIcon(icon_3f0ca5cda5d3d63bc3f0bc7a8b574111);
+        
+    
+        var popup_107dc64397a3c047088da5027fcd3703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5255048cb6a09b51ae044be93e1bf20 = $(`<div id="html_d5255048cb6a09b51ae044be93e1bf20" style="width: 100.0%; height: 100.0%;">Woolworths Milford</div>`)[0];
+                popup_107dc64397a3c047088da5027fcd3703.setContent(html_d5255048cb6a09b51ae044be93e1bf20);
+            
+        
+
+        marker_004ce2405c1bc626d0df3dd5be22e2ef.bindPopup(popup_107dc64397a3c047088da5027fcd3703)
+        ;
+
+        
+    
+    
+            var marker_2563147ffb43bb72eee3cd6fd01189fa = L.marker(
+                [-36.87718131, 174.7523352],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8c20ca223996c97b93cb6e30bd6aaac4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2563147ffb43bb72eee3cd6fd01189fa.setIcon(icon_8c20ca223996c97b93cb6e30bd6aaac4);
+        
+    
+        var popup_bccc2b8caf26fe4b182447623098f316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e04b03fe7ed7c8e244464a8eb5611ea0 = $(`<div id="html_e04b03fe7ed7c8e244464a8eb5611ea0" style="width: 100.0%; height: 100.0%;">Woolworths Mt Eden</div>`)[0];
+                popup_bccc2b8caf26fe4b182447623098f316.setContent(html_e04b03fe7ed7c8e244464a8eb5611ea0);
+            
+        
+
+        marker_2563147ffb43bb72eee3cd6fd01189fa.bindPopup(popup_bccc2b8caf26fe4b182447623098f316)
+        ;
+
+        
+    
+    
+            var marker_ea1e1ed566ad47ea3a914701cc4e83cf = L.marker(
+                [-36.90203359, 174.7356996],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_a83fdf2b6a8e01ce7b5e7a5f4eeaa525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea1e1ed566ad47ea3a914701cc4e83cf.setIcon(icon_a83fdf2b6a8e01ce7b5e7a5f4eeaa525);
+        
+    
+        var popup_b945737d11e8f739a81f88e963c33917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d2d383452c1acac61035931e3072ab5 = $(`<div id="html_0d2d383452c1acac61035931e3072ab5" style="width: 100.0%; height: 100.0%;">Woolworths Mt Roskill</div>`)[0];
+                popup_b945737d11e8f739a81f88e963c33917.setContent(html_0d2d383452c1acac61035931e3072ab5);
+            
+        
+
+        marker_ea1e1ed566ad47ea3a914701cc4e83cf.bindPopup(popup_b945737d11e8f739a81f88e963c33917)
+        ;
+
+        
+    
+    
+            var marker_bf7935c9596bfacb58e6008f823a3d53 = L.marker(
+                [-36.9093147, 174.837989],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_0e796b0133ad6576242a58871e5efe09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf7935c9596bfacb58e6008f823a3d53.setIcon(icon_0e796b0133ad6576242a58871e5efe09);
+        
+    
+        var popup_7ea31c780ea262e09320a83d667098cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_424311857556ef3e6265fa7e33e6f444 = $(`<div id="html_424311857556ef3e6265fa7e33e6f444" style="width: 100.0%; height: 100.0%;">Woolworths Mt Wellington</div>`)[0];
+                popup_7ea31c780ea262e09320a83d667098cd.setContent(html_424311857556ef3e6265fa7e33e6f444);
+            
+        
+
+        marker_bf7935c9596bfacb58e6008f823a3d53.bindPopup(popup_7ea31c780ea262e09320a83d667098cd)
+        ;
+
+        
+    
+    
+            var marker_a899f7bdc35db8270055790bbb9e1c52 = L.marker(
+                [-36.8705446, 174.7754093],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_b88408a40b1248729413816ce0d38ab7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a899f7bdc35db8270055790bbb9e1c52.setIcon(icon_b88408a40b1248729413816ce0d38ab7);
+        
+    
+        var popup_0cf1f33e2a3698660ce70e0052dddd26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa0cc6376246f11ed019c602fbe37eea = $(`<div id="html_fa0cc6376246f11ed019c602fbe37eea" style="width: 100.0%; height: 100.0%;">Woolworths Newmarket</div>`)[0];
+                popup_0cf1f33e2a3698660ce70e0052dddd26.setContent(html_fa0cc6376246f11ed019c602fbe37eea);
+            
+        
+
+        marker_a899f7bdc35db8270055790bbb9e1c52.bindPopup(popup_0cf1f33e2a3698660ce70e0052dddd26)
+        ;
+
+        
+    
+    
+            var marker_f417ab883ed5f385433f4a927924cd33 = L.marker(
+                [-36.80035237, 174.7455338],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_7e977bec3c930956e24d1a2c9c3370bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f417ab883ed5f385433f4a927924cd33.setIcon(icon_7e977bec3c930956e24d1a2c9c3370bf);
+        
+    
+        var popup_0708dbc1a87b873328623d1eb4f66d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e663978d9d176dfd1d695c861253553 = $(`<div id="html_8e663978d9d176dfd1d695c861253553" style="width: 100.0%; height: 100.0%;">Woolworths Northcote</div>`)[0];
+                popup_0708dbc1a87b873328623d1eb4f66d31.setContent(html_8e663978d9d176dfd1d695c861253553);
+            
+        
+
+        marker_f417ab883ed5f385433f4a927924cd33.bindPopup(popup_0708dbc1a87b873328623d1eb4f66d31)
+        ;
+
+        
+    
+    
+            var marker_6c15b7351444450957b8c57eabd8cb8e = L.marker(
+                [-36.81879206, 174.6129291],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8b8c2520fc5e3ae85c425332aca6f530 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c15b7351444450957b8c57eabd8cb8e.setIcon(icon_8b8c2520fc5e3ae85c425332aca6f530);
+        
+    
+        var popup_a4e354ca35d5bc303d1d7d7d90d570ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a59bfcfb46b8bb2d62d9f5b479742a9 = $(`<div id="html_5a59bfcfb46b8bb2d62d9f5b479742a9" style="width: 100.0%; height: 100.0%;">Woolworths Northwest</div>`)[0];
+                popup_a4e354ca35d5bc303d1d7d7d90d570ed.setContent(html_5a59bfcfb46b8bb2d62d9f5b479742a9);
+            
+        
+
+        marker_6c15b7351444450957b8c57eabd8cb8e.bindPopup(popup_a4e354ca35d5bc303d1d7d7d90d570ed)
+        ;
+
+        
+    
+    
+            var marker_8b65b9a42863bdc25498d167fbdfb2fd = L.marker(
+                [-36.92249969, 174.7838024],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_124ccc9835cec975b718e923b628a019 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b65b9a42863bdc25498d167fbdfb2fd.setIcon(icon_124ccc9835cec975b718e923b628a019);
+        
+    
+        var popup_e4dada58b1183e70227a938dbb27ae2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79058883c95aa39f415fe17391e1c03b = $(`<div id="html_79058883c95aa39f415fe17391e1c03b" style="width: 100.0%; height: 100.0%;">Woolworths Onehunga</div>`)[0];
+                popup_e4dada58b1183e70227a938dbb27ae2d.setContent(html_79058883c95aa39f415fe17391e1c03b);
+            
+        
+
+        marker_8b65b9a42863bdc25498d167fbdfb2fd.bindPopup(popup_e4dada58b1183e70227a938dbb27ae2d)
+        ;
+
+        
+    
+    
+            var marker_8016a21f7550eb87b3e825d855ad4c87 = L.marker(
+                [-36.91284146, 174.8714299],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_014e81d558cee1153e07421d2824bc63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8016a21f7550eb87b3e825d855ad4c87.setIcon(icon_014e81d558cee1153e07421d2824bc63);
+        
+    
+        var popup_00356e04a36aa849f21e364b83bd195a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ddede0f37feea613e12f9532d425cf = $(`<div id="html_31ddede0f37feea613e12f9532d425cf" style="width: 100.0%; height: 100.0%;">Woolworths Pakuranga</div>`)[0];
+                popup_00356e04a36aa849f21e364b83bd195a.setContent(html_31ddede0f37feea613e12f9532d425cf);
+            
+        
+
+        marker_8016a21f7550eb87b3e825d855ad4c87.bindPopup(popup_00356e04a36aa849f21e364b83bd195a)
+        ;
+
+        
+    
+    
+            var marker_d56ce12c724073ae3d988deba6ec8866 = L.marker(
+                [-37.06390487, 174.9447236],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_163589f0f0123ae2e6b2a8e4ea7c1b24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d56ce12c724073ae3d988deba6ec8866.setIcon(icon_163589f0f0123ae2e6b2a8e4ea7c1b24);
+        
+    
+        var popup_a284fd37109426391fea8c3bc09550ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_444a28286e0dd7ff6201e8b7c8c8306e = $(`<div id="html_444a28286e0dd7ff6201e8b7c8c8306e" style="width: 100.0%; height: 100.0%;">Woolworths Papakura</div>`)[0];
+                popup_a284fd37109426391fea8c3bc09550ec.setContent(html_444a28286e0dd7ff6201e8b7c8c8306e);
+            
+        
+
+        marker_d56ce12c724073ae3d988deba6ec8866.bindPopup(popup_a284fd37109426391fea8c3bc09550ec)
+        ;
+
+        
+    
+    
+            var marker_eb76c6c69ada0800a35522f9a4d2b57e = L.marker(
+                [-36.97039494, 174.862111],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_133978f70e3f1fc5b96cb129ac683cad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb76c6c69ada0800a35522f9a4d2b57e.setIcon(icon_133978f70e3f1fc5b96cb129ac683cad);
+        
+    
+        var popup_5e8ef35669f67378fcc3e3cb23c30f15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a02b5a4604f890303b3345afa76f672e = $(`<div id="html_a02b5a4604f890303b3345afa76f672e" style="width: 100.0%; height: 100.0%;">Woolworths Papatoetoe</div>`)[0];
+                popup_5e8ef35669f67378fcc3e3cb23c30f15.setContent(html_a02b5a4604f890303b3345afa76f672e);
+            
+        
+
+        marker_eb76c6c69ada0800a35522f9a4d2b57e.bindPopup(popup_5e8ef35669f67378fcc3e3cb23c30f15)
+        ;
+
+        
+    
+    
+            var marker_19681c9e02b61b2aec1c0e30032186e0 = L.marker(
+                [-36.8584399, 174.7491386],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_6104419602653216976d222b3ddec05b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19681c9e02b61b2aec1c0e30032186e0.setIcon(icon_6104419602653216976d222b3ddec05b);
+        
+    
+        var popup_c44564da8ed5b4b1042857f9553e11d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cba42b2e3f6e33cc11901b8ed318d902 = $(`<div id="html_cba42b2e3f6e33cc11901b8ed318d902" style="width: 100.0%; height: 100.0%;">Woolworths Ponsonby</div>`)[0];
+                popup_c44564da8ed5b4b1042857f9553e11d5.setContent(html_cba42b2e3f6e33cc11901b8ed318d902);
+            
+        
+
+        marker_19681c9e02b61b2aec1c0e30032186e0.bindPopup(popup_c44564da8ed5b4b1042857f9553e11d5)
+        ;
+
+        
+    
+    
+            var marker_98937cdedc322d617f068e89de813541 = L.marker(
+                [-36.86957431, 174.7105595],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_2af4fdb75e2298394bc71a95f1e313ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98937cdedc322d617f068e89de813541.setIcon(icon_2af4fdb75e2298394bc71a95f1e313ee);
+        
+    
+        var popup_a5a6f3e9ea46dfa263e6f3ebd07f369f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d207d64648da121da2d8e1fc22ce9b1 = $(`<div id="html_4d207d64648da121da2d8e1fc22ce9b1" style="width: 100.0%; height: 100.0%;">Woolworths Pt Chevalier</div>`)[0];
+                popup_a5a6f3e9ea46dfa263e6f3ebd07f369f.setContent(html_4d207d64648da121da2d8e1fc22ce9b1);
+            
+        
+
+        marker_98937cdedc322d617f068e89de813541.bindPopup(popup_a5a6f3e9ea46dfa263e6f3ebd07f369f)
+        ;
+
+        
+    
+    
+            var marker_9bc87ac17952ac13f9410f0b66c0f833 = L.marker(
+                [-37.0589478, 174.9414297],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_dcd77fd39c82036304a3f50d96aa4913 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9bc87ac17952ac13f9410f0b66c0f833.setIcon(icon_dcd77fd39c82036304a3f50d96aa4913);
+        
+    
+        var popup_0d8924a259c60ee25151003f044e9a02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_815dbea61e4dc3ebabd6e75fef3888da = $(`<div id="html_815dbea61e4dc3ebabd6e75fef3888da" style="width: 100.0%; height: 100.0%;">Woolworths Roselands</div>`)[0];
+                popup_0d8924a259c60ee25151003f044e9a02.setContent(html_815dbea61e4dc3ebabd6e75fef3888da);
+            
+        
+
+        marker_9bc87ac17952ac13f9410f0b66c0f833.bindPopup(popup_0d8924a259c60ee25151003f044e9a02)
+        ;
+
+        
+    
+    
+            var marker_cb2219affcf7a353c48b79eaf1186ecf = L.marker(
+                [-36.87888192, 174.8548393],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_8a260f5c6a9b97397e2cff7d2f92830f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb2219affcf7a353c48b79eaf1186ecf.setIcon(icon_8a260f5c6a9b97397e2cff7d2f92830f);
+        
+    
+        var popup_4f85061a67516e658fad29be168ddbc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12aa3db5e1b78d385a062ddae43dc5c3 = $(`<div id="html_12aa3db5e1b78d385a062ddae43dc5c3" style="width: 100.0%; height: 100.0%;">Woolworths St Johns</div>`)[0];
+                popup_4f85061a67516e658fad29be168ddbc1.setContent(html_12aa3db5e1b78d385a062ddae43dc5c3);
+            
+        
+
+        marker_cb2219affcf7a353c48b79eaf1186ecf.bindPopup(popup_4f85061a67516e658fad29be168ddbc1)
+        ;
+
+        
+    
+    
+            var marker_48bfc1cca294d273b9c623c399d84e75 = L.marker(
+                [-36.88336862, 174.7347459],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_f10dd95ea5d41f14efecd1d3f7abb07b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_48bfc1cca294d273b9c623c399d84e75.setIcon(icon_f10dd95ea5d41f14efecd1d3f7abb07b);
+        
+    
+        var popup_ca5cb342e416077d7bf376a14e6bbaa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18aa0e18d2afde197a265251e7d8546c = $(`<div id="html_18aa0e18d2afde197a265251e7d8546c" style="width: 100.0%; height: 100.0%;">Woolworths St Lukes</div>`)[0];
+                popup_ca5cb342e416077d7bf376a14e6bbaa0.setContent(html_18aa0e18d2afde197a265251e7d8546c);
+            
+        
+
+        marker_48bfc1cca294d273b9c623c399d84e75.bindPopup(popup_ca5cb342e416077d7bf376a14e6bbaa0)
+        ;
+
+        
+    
+    
+            var marker_9993a46580bc86db8d80db2c4bbbabbb = L.marker(
+                [-36.75907026, 174.7406941],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_03d381597e56ba110e879f61dd36a65f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9993a46580bc86db8d80db2c4bbbabbb.setIcon(icon_03d381597e56ba110e879f61dd36a65f);
+        
+    
+        var popup_9b510f88d50a169ab989e11870a9ac2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef28e8b37c277856745978e59216643e = $(`<div id="html_ef28e8b37c277856745978e59216643e" style="width: 100.0%; height: 100.0%;">Woolworths Sunnynook</div>`)[0];
+                popup_9b510f88d50a169ab989e11870a9ac2c.setContent(html_ef28e8b37c277856745978e59216643e);
+            
+        
+
+        marker_9993a46580bc86db8d80db2c4bbbabbb.bindPopup(popup_9b510f88d50a169ab989e11870a9ac2c)
+        ;
+
+        
+    
+    
+            var marker_675b23c2ed10c9f3ae20732471038651 = L.marker(
+                [-37.04764284, 174.9279243],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_85ce04bdfd71fdf30ec6970f201a678f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_675b23c2ed10c9f3ae20732471038651.setIcon(icon_85ce04bdfd71fdf30ec6970f201a678f);
+        
+    
+        var popup_da4d5eebd9ae9540bb48809a6aa1b400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80c45dd7355736d62db80aab9fb7881f = $(`<div id="html_80c45dd7355736d62db80aab9fb7881f" style="width: 100.0%; height: 100.0%;">Woolworths Takanini</div>`)[0];
+                popup_da4d5eebd9ae9540bb48809a6aa1b400.setContent(html_80c45dd7355736d62db80aab9fb7881f);
+            
+        
+
+        marker_675b23c2ed10c9f3ae20732471038651.bindPopup(popup_da4d5eebd9ae9540bb48809a6aa1b400)
+        ;
+
+        
+    
+    
+            var marker_5ecf41fe6e2a83ee7a611ef9c5701d46 = L.marker(
+                [-36.79125414, 174.7662056],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_4d4cc2d6c9125e4a65eddc06a983a240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ecf41fe6e2a83ee7a611ef9c5701d46.setIcon(icon_4d4cc2d6c9125e4a65eddc06a983a240);
+        
+    
+        var popup_83fcee5980b150a6ea9e260b47424a0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f01d0ef83e82c878ea13b57a53a15ad3 = $(`<div id="html_f01d0ef83e82c878ea13b57a53a15ad3" style="width: 100.0%; height: 100.0%;">Woolworths Takapuna</div>`)[0];
+                popup_83fcee5980b150a6ea9e260b47424a0d.setContent(html_f01d0ef83e82c878ea13b57a53a15ad3);
+            
+        
+
+        marker_5ecf41fe6e2a83ee7a611ef9c5701d46.bindPopup(popup_83fcee5980b150a6ea9e260b47424a0d)
+        ;
+
+        
+    
+    
+            var marker_99d5a57aeb6b9c3039ff3bbc1670e2d1 = L.marker(
+                [-36.84209292, 174.6542381],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_210a6d97161dbd1ca56481ea5ef5a1c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99d5a57aeb6b9c3039ff3bbc1670e2d1.setIcon(icon_210a6d97161dbd1ca56481ea5ef5a1c4);
+        
+    
+        var popup_e505d435566a0ddcf7397071d0131c5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_662221d4ab363844c48a7068a60734ec = $(`<div id="html_662221d4ab363844c48a7068a60734ec" style="width: 100.0%; height: 100.0%;">Woolworths Te Atatu North</div>`)[0];
+                popup_e505d435566a0ddcf7397071d0131c5e.setContent(html_662221d4ab363844c48a7068a60734ec);
+            
+        
+
+        marker_99d5a57aeb6b9c3039ff3bbc1670e2d1.bindPopup(popup_e505d435566a0ddcf7397071d0131c5e)
+        ;
+
+        
+    
+    
+            var marker_269f88744437221174b0260054eff7f1 = L.marker(
+                [-36.86472278, 174.6476292],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_defd701ed1c3ecff2fa4a2a574c2b829 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_269f88744437221174b0260054eff7f1.setIcon(icon_defd701ed1c3ecff2fa4a2a574c2b829);
+        
+    
+        var popup_4ed30c0f220da3dfdb97758848fb88bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47621dd3f505f59febf4fb2df5f6c3d2 = $(`<div id="html_47621dd3f505f59febf4fb2df5f6c3d2" style="width: 100.0%; height: 100.0%;">Woolworths Te Atatu South</div>`)[0];
+                popup_4ed30c0f220da3dfdb97758848fb88bf.setContent(html_47621dd3f505f59febf4fb2df5f6c3d2);
+            
+        
+
+        marker_269f88744437221174b0260054eff7f1.bindPopup(popup_4ed30c0f220da3dfdb97758848fb88bf)
+        ;
+
+        
+    
+    
+            var marker_8e29700cd17790af10dd672ea1dd9e9f = L.marker(
+                [-36.90796057, 174.7559072],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_40f3755d18c47ae9f6ae73737ab51f60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e29700cd17790af10dd672ea1dd9e9f.setIcon(icon_40f3755d18c47ae9f6ae73737ab51f60);
+        
+    
+        var popup_424fcd932b946974ee5f6f7a36ee54fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c4340a83ca892643769db7a80817eb0 = $(`<div id="html_4c4340a83ca892643769db7a80817eb0" style="width: 100.0%; height: 100.0%;">Woolworths Three Kings</div>`)[0];
+                popup_424fcd932b946974ee5f6f7a36ee54fb.setContent(html_4c4340a83ca892643769db7a80817eb0);
+            
+        
+
+        marker_8e29700cd17790af10dd672ea1dd9e9f.bindPopup(popup_424fcd932b946974ee5f6f7a36ee54fb)
+        ;
+
+        
+    
+    
+            var marker_e1ee23e517b2e859cc6be3e8d9357f21 = L.marker(
+                [-37.03553485, 174.9078539],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_6f8f5562a155575558d36991a0c5517a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1ee23e517b2e859cc6be3e8d9357f21.setIcon(icon_6f8f5562a155575558d36991a0c5517a);
+        
+    
+        var popup_030b680cb845322cf07b2169605ed5cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6d66fc86ccdf90db0fc6a31a9b840e = $(`<div id="html_9d6d66fc86ccdf90db0fc6a31a9b840e" style="width: 100.0%; height: 100.0%;">Woolworths Waiata Shores</div>`)[0];
+                popup_030b680cb845322cf07b2169605ed5cd.setContent(html_9d6d66fc86ccdf90db0fc6a31a9b840e);
+            
+        
+
+        marker_e1ee23e517b2e859cc6be3e8d9357f21.bindPopup(popup_030b680cb845322cf07b2169605ed5cd)
+        ;
+
+        
+    
+    
+            var marker_69633328924c48a438cc37ca29cdcefa = L.marker(
+                [-36.82092949, 174.6146464],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_ab0d04b5a6e7e19efbe9b316b87bd94c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69633328924c48a438cc37ca29cdcefa.setIcon(icon_ab0d04b5a6e7e19efbe9b316b87bd94c);
+        
+    
+        var popup_0f2ef28fab313eb6ea49ea2f3eed0980 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51cffe862b7f87dc9d8894d75cdca08b = $(`<div id="html_51cffe862b7f87dc9d8894d75cdca08b" style="width: 100.0%; height: 100.0%;">Woolworths Westgate</div>`)[0];
+                popup_0f2ef28fab313eb6ea49ea2f3eed0980.setContent(html_51cffe862b7f87dc9d8894d75cdca08b);
+            
+        
+
+        marker_69633328924c48a438cc37ca29cdcefa.bindPopup(popup_0f2ef28fab313eb6ea49ea2f3eed0980)
+        ;
+
+        
+    
+    
+            var marker_b89c16e3cd53f8bb8aaa26599421ef6e = L.marker(
+                [-36.94904179, 174.8080123],
+                {}
+            ).addTo(map_af0fb5e7dd7ef34dca8a5b88a4cf870c);
+        
+    
+            var icon_d87ffa627c0cb7a39f342be045634a5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b89c16e3cd53f8bb8aaa26599421ef6e.setIcon(icon_d87ffa627c0cb7a39f342be045634a5d);
+        
+    
+        var popup_8adabc5c2c4e3341dceac48021b4d616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c51f40072fe62e0ac6fb78bf355074c = $(`<div id="html_1c51f40072fe62e0ac6fb78bf355074c" style="width: 100.0%; height: 100.0%;">Distribution Centre Auckland</div>`)[0];
+                popup_8adabc5c2c4e3341dceac48021b4d616.setContent(html_1c51f40072fe62e0ac6fb78bf355074c);
+            
+        
+
+        marker_b89c16e3cd53f8bb8aaa26599421ef6e.bindPopup(popup_8adabc5c2c4e3341dceac48021b4d616)
+        ;
+
+        
+    
+</script>
+</html>

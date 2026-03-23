@@ -1,0 +1,75 @@
+/* live_sim.css – styling for the Live Simulation tab */
+
+/* Ensure the sidebar matches existing theme */
+.sidebar .nav-item.active {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+}
+
+/* Layout for the controls grid */
+.controls-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    color: #e0e0e0;
+}
+
+.control-group label {
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.control-group input[type="range"] {
+    width: 100%;
+}
+
+.control-group input[type="number"] {
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid #555;
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#runSimBtn {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    background: #0066ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#runSimBtn:hover {
+    background: #0055dd;
+}
+
+.lp-block {
+    background: #111;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    color: #e0e0e0;
+}
+
+.map-box {
+    height: 400px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.chart-container {
+    height: 250px;
+    margin-top: 0.5rem;
+}
